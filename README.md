@@ -17,6 +17,6 @@ In the MPS Communication Design program at Parsons, graduate students were chall
   <li>A chapter from <em>C-1962</em> by David Reinfurt.</li>
   </ul>
 <h2>About me</h2>
-<p>Hello, my name is Bee! I am a graduate student at MPS Communication Design at Parsons. Nice to meet you!</p>
+<p>Hello, my name is Bee Bulgan! I am a graduate student at MPS Communication Design at Parsons. Nice to meet you!</p>
 <h2>Contact me</h2>
 <p>You can reach me at bgbulgan@gmail.com</p>
