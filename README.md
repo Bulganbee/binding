@@ -3,7 +3,7 @@
 In the MPS Communication Design program at Parsons, graduate students were challenged to design and develop a responsive, cohesive website within just three weeks. Each student used three selected articles on design and art for their website's content.<p>
 <p>Requirements:</p>
 <ul>
-  <li>The student must use the reading of their Manuscript project as a base for content.</li>
+  <li>The student must use the reading of their <em>Manuscript</em> project as a base for content.</li>
   <li>The student must choose additional two readings from the class's reading list.</li>
   <li>Do NOT use images.</li>
   <li>The website must be responsive on mobile and desktop.</li>
