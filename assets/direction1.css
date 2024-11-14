@@ -11,6 +11,7 @@
 }
 #deco {
 	font-family: "Arizonia", cursive;
+	font-weight: 700;
 	font-size: 122px;
 	color: #CF9B0C;
 }
@@ -21,7 +22,7 @@ h2 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 20px;
 	font-weight:500;
-	color: #A1A1A1;
+	color: #777777;
 
 }
 header {
@@ -60,6 +61,7 @@ body {
 article {
 	margin: 8px;
 	margin-top: 40px;
+	margin-bottom: 80px;
 	font-size: 16px;
 	font-family: "Merriweather Sans", sans-serif;
 	font-weight: 350;
@@ -71,8 +73,8 @@ p {
 .footer {
 	font-size: 18px;
 	font-family: "Montserrat", sans-serif;
-	font-weight: bold;
-	color: #A1A1A1;
+	font-weight: 600;
+	color: #777777;
 }
 .authorfooter {
 	font-size: 32px;
