@@ -33,12 +33,23 @@ header {
 .flex-container {
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
-	font-weight:500;
+	font-weight:600;
+	background-color: #FAFAFA;
 	border-top: #1E1D1D;
 	border-bottom: #1E1D1D;
 	border-style: inset;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+a {
+	margin-right: 12px;
+}
+
+a :first-child  {
+	margin-left: 8px;
 }
 
 
