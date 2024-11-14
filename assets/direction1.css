@@ -68,3 +68,22 @@ p {
 	line-height: 175%;
 	margin-bottom: 40px;
 }
+.footer {
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #A1A1A1;
+}
+.authorfooter {
+	font-size: 32px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #1E1D1D;
+}
+footer {
+	border-top: #1E1D1D;
+	border-style: inset;
+	line-height: 0px;
+	padding-bottom: 30px;
+	padding-left: 8px;
+}
