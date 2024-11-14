@@ -1,3 +1,36 @@
+
+body {
+	color: #111111;
+}
+header {
+	background-color: #C14E50;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	font-family: "Limelight", sans-serif;
+}
+#war {
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 700;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 24px;
+}
+article {
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Raleway", sans-serif;
+}
 p {
-	color: brown;
+	font-size: 16px;
+	line-height: 172%;
+	margin-bottom: 40px;
+}
+h3 {
+	font-family: "Limelight", sans-serif;
+	margin-bottom: 20px;
+	font-size: 24px;
 }
