@@ -57,7 +57,13 @@ body {
 	background-color: #FAFAFA;
 	color: #1E1D1D;
 }
-
+h3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #CF9B0C;
+	margin-bottom: 20px;
+}
 article {
 	margin: 8px;
 	margin-top: 40px;
@@ -69,6 +75,9 @@ article {
 p {
 	line-height: 175%;
 	margin-bottom: 40px;
+}
+.designandcrimesection {
+	
 }
 .footer {
 	font-size: 18px;
