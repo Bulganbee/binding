@@ -52,9 +52,19 @@ a :first-child  {
 	margin-left: 8px;
 }
 
-
-
 body {
 	background-color: #FAFAFA;
 	color: #1E1D1D;
+}
+
+article {
+	margin: 8px;
+	margin-top: 40px;
+	font-size: 16px;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 350;
+}
+p {
+	line-height: 175%;
+	margin-bottom: 40px;
 }
