@@ -4,7 +4,19 @@
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 }
-#on
+#on {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 64px;
+}
+#deco {
+	font-family: "Arizonia", cursive;
+	font-size: 122px;
+	color: #CF9B0C;
+}
+h1 {
+	line-height: -50%;
+}
 
 
 body {
