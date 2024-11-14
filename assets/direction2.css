@@ -8,10 +8,12 @@ header {
 	padding-bottom: 20px;
 	padding-top: 40px;
 	font-family: "Limelight", sans-serif;
+	line-height: 90px;
 }
 #war {
 	font-family: "Merriweather Sans", sans-serif;
 	font-weight: 700;
+	font-size: 90px;
 }
 h1 {
 	font-size: 80px;
