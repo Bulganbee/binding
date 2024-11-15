@@ -3,20 +3,22 @@ body {
 	color: #111111;
 }
 header {
-	background-color: #C14E50;
+	background-color: #181314;
 	padding-left: 10px;
 	padding-bottom: 20px;
 	padding-top: 40px;
 	font-family: "Limelight", sans-serif;
 	line-height: 90px;
 }
-#war {
-	font-family: "Merriweather Sans", sans-serif;
-	font-weight: 700;
+#invisible {
+	font-family: "Londrina Shadow", sans-serif;
 	font-size: 90px;
+	color: #ffffff;
 }
 h1 {
-	font-size: 80px;
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 90px;
 }
 h2 {
 	font-size: 24px;
@@ -35,4 +37,23 @@ h3 {
 	font-family: "Limelight", sans-serif;
 	margin-bottom: 20px;
 	font-size: 24px;
+}
+.flex-container {
+	justify-content: space-evenly;
+	padding:5px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #352d3e;
+	flex-direction: row;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+a {
+	margin-right: 26px;
+	color: rgb(241, 241, 241);
+	font-family: "Limelight", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
