@@ -1,21 +1,25 @@
 
 
 #complete {
-	font-family: Helvetica, sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: bolder;
 	font-size: 80px;
-	color: #241c07;
+	color: #eee8df;
+}
+mark {
+	background-color: #1E1D1D;
 }
 h1 {
-	line-height: 70px;
-	color: #cc3d3d;
-	font-size: 30px;
+	line-height: 84px;
+	color: #1E1D1D;
+	font-size: 38px;
 	font-family: "Federo";
 	font-weight: bold;
 }
 .secondhead {
 	font-size: 30px;
 	line-height: 50px;
+	font-family: "Raleway", sans-serif;
 }
 h2 { 
 	font-family: "Manrope", sans-serif;
