@@ -39,39 +39,59 @@ article {
 	font-family: "Raleway", sans-serif;
 }
 p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 172%;
 	margin-bottom: 40px;
+	font-family: "Montserrat", sans-serif;
+
 }
+
 h3 {
-	font-family: "Limelight", sans-serif;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 	margin-bottom: 20px;
-	font-size: 28px;
+	font-size: 36px;
+}
+.introh3 {
+	margin: 10px;
+}
+.intropa {
+	margin: 10px;
+	margin-bottom: 50px;
+}
+.aboutarticles {
+	background-color: #000001;
+	margin: 0;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-bottom: 50px;
+
+}
+.start {
+	color: #ededed;
+}
+.articlename {
+	color: rgb(229, 162, 7);
+	padding-top: 20px;
 }
 h4 {
 	font-size: 18px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	color: #616161;
+	color: #a9a9a9;
 	margin-bottom: 18px;
+}
+.articleintro {
+	color: #e4e4e4;
+	font-size: 16px;
+	padding-bottom: 30px;
 }
 
 section {
-	margin: 10px;
+	
 	margin-bottom: 30px;
 }
-.articlesection {
-	border: #111111;
-	border-style: dashed;
-	border-radius: 12px;
-	padding: 10px;
-	margin: 5px;
-	margin-bottom: 20px;
 
-}
-#circle {
-	color: rgb(222, 53, 27);
-}
 .flex-container {
 	display: flex;
 	padding-left: 10px;
@@ -93,10 +113,6 @@ a {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-}
-.articlelink {
-	display: flex;
-	gap: 12px;
 }
 #arrow2 {
 	color:  rgb(222, 53, 27);
