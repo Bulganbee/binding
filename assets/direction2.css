@@ -10,14 +10,17 @@ header {
 	font-family: "Limelight", sans-serif;
 	line-height: 90px;
 }
+#deco {
+	color: rgb(222, 53, 27);
+}
 #invisible {
 	font-family: "Londrina Shadow", sans-serif;
-	font-size: 90px;
+	font-size: 100px;
 	color: #ffffff;
 }
 h1 {
 	font-size: 40px;
-	color: #ffffff;
+	color: #e4e4e4;
 	line-height: 90px;
 }
 h2 {
@@ -36,7 +39,28 @@ p {
 h3 {
 	font-family: "Limelight", sans-serif;
 	margin-bottom: 20px;
-	font-size: 24px;
+	font-size: 28px;
+}
+h4 {
+	font-size: 18px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: #616161;
+	margin-bottom: 18px;
+}
+.articlesection {
+	border: #111111;
+	border-style: dashed;
+	border-radius: 12px;
+	padding: 10px;
+
+}
+
+section {
+	margin-bottom: 30px;
+}
+#circle {
+	color: rgb(222, 53, 27);
 }
 .flex-container {
 	justify-content: space-evenly;
@@ -44,7 +68,9 @@ h3 {
 	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #352d3e;
+	background-color:  rgb(33, 6, 2);
+	border-top: #dfdfdf;
+	border-style: dashed;
 	flex-direction: row;
 	position: -webkit-sticky;
 	position: sticky;
@@ -56,4 +82,11 @@ a {
 	font-family: "Limelight", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+}
+
+footer {
+	color: #e4e4e4;
+	background-color: #181314;
+	margin: 0;
+
 }
