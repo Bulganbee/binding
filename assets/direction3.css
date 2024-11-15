@@ -7,11 +7,11 @@ header {
 	font-family: "Montserrat", sans-serif;
 	line-height: 90px;
 }
+mark {
+	background-color: rgb(229, 162, 7);;
+}
 #deco {
 	color: #050505;
-}
-mark {
-	background-color: rgb(229, 162, 7);
 }
 #invisible {
 	font-family: "Montserrat", sans-serif;
@@ -117,23 +117,22 @@ a {
 	font-weight: 600;
 	font-size: 20px;
 }
-#arrow2 {
-	color:  rgb(222, 53, 27);
-	font-size: 30px;
-}
+
 footer {
-	color: #e4e4e4;
-	background-color: #181314;
+	background-color: #000001;
 	padding-left: 10px;
-	padding-bottom: 60px;
+	padding-bottom: 90px;
+	border-top:  #e4e4e4;
+	border-style: inset;
 
 }
 .footer {
 	font-size: 20px;
-	font-family: "Limelight", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 .authorfooter {
 	font-size: 40px;
-	font-family: "Londrina Shadow", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	line-height: 10px;
+	color: rgb(229, 162, 7);;
 }
