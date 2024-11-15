@@ -34,14 +34,13 @@ h2 {
 	color: rgb(229, 162, 7);
 }
 article {
-	
 	margin-top: 40px;
 	font-family: "Raleway", sans-serif;
 }
 p {
 	font-size: 18px;
 	line-height: 172%;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 	font-family: "Montserrat", sans-serif;
 
 }
@@ -90,10 +89,6 @@ u {
 	text-decoration:underline;
 }
 
-section {
-	
-	margin-bottom: 30px;
-}
 
 .flex-container {
 	display: flex;
@@ -119,20 +114,19 @@ a {
 }
 
 footer {
-	background-color: #000001;
+	background-color: rgb(229, 162, 7);
 	padding-left: 10px;
 	padding-bottom: 90px;
-	border-top:  #e4e4e4;
-	border-style: inset;
 
 }
 .footer {
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;
+	color: rgb(12, 12, 12);
 }
 .authorfooter {
 	font-size: 40px;
 	font-family: "Montserrat", sans-serif;
 	line-height: 10px;
-	color: rgb(229, 162, 7);;
+	color: rgb(12, 12, 12);
 }
