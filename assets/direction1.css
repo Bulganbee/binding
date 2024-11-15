@@ -1,47 +1,39 @@
 
-#war {
-	font-size: 100px;
-	font-family: "Montserrat", sans-serif;
-	font-weight: bold;
-}
-#on {
-	font-family: "Montserrat", sans-serif;
-	font-weight: bold;
-	font-size: 64px;
-}
-#deco {
-	font-family: "Playfair Display", serif;
+
+#complete {
+	font-family: "DM Serif Text", serif;
+	font-style: italic;
 	font-style: italic;
 	font-weight: 600;
-	font-size: 102px;
+	font-size: 80px;
 	color: #241c07;
 }
 h1 {
-	line-height: 80px;
+	line-height: 100px;
 	color: #cc3d3d;
+	font-size: 90px;
+	font-family: "DM Serif Text", serif;
+	font-weight: bold;
 }
 h2 { 
-	font-family: "Montserrat", sans-serif;
+	font-family: "Manrope", sans-serif;
 	font-size: 20px;
 	font-weight:500;
-	color: #777777;
+	color: #504c43;
 
 }
 header {
 	padding-top: 48px;
 	padding-left: 8px;
-	padding-bottom: 30px;
-	line-height: 10px;
+	padding-bottom: 10px;
+	line-height: 70px;
 	background-color: #eee8df;
 }
 .flex-container {
-	font-family: "Montserrat", sans-serif;
-	font-size: 16px;
-	font-weight:600;
-	background-color: #FAFAFA;
-	border-top: #1E1D1D;
-	border-bottom: #1E1D1D;
-	border-style: inset;
+	font-family: "Manrope", sans-serif;
+	font-size: 17px;
+	font-weight:550;
+	background-color: #cc3d3d;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	position: -webkit-sticky;
@@ -50,6 +42,7 @@ header {
 }
 a {
 	margin-right: 12px;
+	color: #FAFAFA;
 }
 
 a :first-child  {
@@ -60,10 +53,10 @@ body {
 	background-color: #FAFAFA;
 }
 h3 {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 650;
+	font-family: "DM Serif Text", serif;
+	font-weight: bold;
 	font-size: 32px;
-	color: #CF9B0C;
+	color: #241c07;
 	margin-bottom: 20px;
 }
 article {
@@ -71,11 +64,11 @@ article {
 	margin-top: 40px;
 	margin-bottom: 80px;
 	font-size: 16px;
-	font-family: "Merriweather Sans", sans-serif;
-	font-weight: 350;
+	font-family: "Manrope", sans-serif;
+	font-weight: 450;
 }
 p {
-	line-height: 175%;
+	line-height: 180%;
 	margin-bottom: 40px;
 }
 
