@@ -69,14 +69,30 @@ h3 {
 	font-size: 30px;
 	color: #241c07;
 	margin-bottom: 20px;
+	line-height: 40px;
+}
+.articlename {
+	margin-bottom: 10px;
+}
+h4 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #8c8c8c;
+	margin-bottom: 20px;
+
+}
+#red {
+	color: #cc3d3d;
 }
 article {
 	margin: 8px;
 	margin-top: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 	font-size: 16px;
 	font-family: "Manrope", sans-serif;
 	font-weight: 450;
+}
 }
 p {
 	line-height: 180%;
@@ -102,9 +118,24 @@ footer {
 	padding-bottom: 30px;
 	padding-left: 8px;
 }
+section {
+	margin-bottom: 20px;
+}
+.articlesection {
+	background-color: #161616;
+	color: #FAFAFA;
+	border-radius: 2px;
+	padding: 6px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+.articlename {
+	color: #e3e3e3;
+}
 
 a {
 	color: #1E1D1D;
+	font-size: 24px;
 }
 
 ul li {
