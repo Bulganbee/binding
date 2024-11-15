@@ -129,6 +129,10 @@ section {
 	padding-bottom: 20px;
 	padding-left: 10px;
 }
+.articleintro {
+	width: 33ch;
+	line-height: 170%;
+}
 .articlename {
 	color: #e3e3e3;
 }
