@@ -1,10 +1,14 @@
 
 
-#complete {
+#invisible {
 	font-family: "Raleway", sans-serif;
 	font-weight: bolder;
-	font-size: 80px;
-	color: #eee8df;
+	font-size: 84px;
+	color: #e3e3e3;
+}
+#deco {
+	color: #cc3d3d;
+	font-weight: bold;
 }
 mark {
 	background-color: #1E1D1D;
@@ -12,39 +16,40 @@ mark {
 h1 {
 	line-height: 84px;
 	color: #1E1D1D;
-	font-size: 38px;
-	font-family: "Federo";
+	font-size: 36px;
+	font-family: "Raleway", sans-serif;
 	font-weight: bold;
 }
 .secondhead {
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 26.5px;
+	line-height: 40px;
 	font-family: "Raleway", sans-serif;
+	font-weight: 400;
 }
 h2 { 
 	font-family: "Manrope", sans-serif;
 	font-size: 20px;
 	font-weight:500;
 	color: #504c43;
+	visibility: hidden;
 
 }
 header {
 	padding-top: 48px;
 	padding-left: 8px;
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 	line-height: 100px;
-	background-color: #eee8df;
+	background-color: #e3e3e3;
 }
 .flex-container {
 	font-family: "Manrope", sans-serif;
 	font-size: 17px;
 	font-weight:550;
-	background-color: #cc3d3d;
+	background-color: #e3e3e3;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+	border-top: #161616;
+	border-style:inset
 }
 a {
 	margin-right: 12px;
@@ -96,4 +101,24 @@ footer {
 	line-height: 0px;
 	padding-bottom: 30px;
 	padding-left: 8px;
+}
+
+a {
+	color: #1E1D1D;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+ul li a {
+	display: block;
+}
+ul li.links {
+	position: absolute;
+	display: none;
+}
+a {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
 }
