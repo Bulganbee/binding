@@ -53,4 +53,7 @@ p {
 	margin-bottom: 200px;
 	
 }
+sup {
+	line-height: 0;
+}
 
