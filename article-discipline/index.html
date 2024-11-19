@@ -6,131 +6,58 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Below is a reset, it clears off browser's default style -->
 	<link href="assets/reset.css" rel="stylesheet">
-	<!-- Below are fonts -->
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Londrina+Shadow&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
-
-		</style>
 	<!-- Below is a link to my CSS file -->
 	<link href="../assets/common.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-<!-- Header for direction1 and direction2 -->
+<!-- Main title -->
 		<header>
-			<h1><span id="deco">Decorative</span> to <span id="invisible"><mark>Invisible</mark></span></h1>
+			<h1>The Concept of</h1>
+			<h2>Design</h2>
+			<h2 span id="titlecontinue">Discipline</h2>
+			<h3>Vol.1 &nbsp;Paul A. Rodgers&nbsp; Craig Bremner &nbsp; &nbsp; &nbsp;2017</h3>
 		</header>
-	<!-- Header for direction3 -->
-		<!-- <header>
-			<h1><span id="deco"><mark>Decorative</mark></span> to<br> <span id="invisible"><span id="in">In-</span><br>visible</span></h1>
-			<h2>Bulgan Bee | 2024</h2>
-		</header> -->
-	<!-- Table of contents for direction3 -->
-	<div class="flex-container">
-		<div class="links">
-		<a href="#"><button>Table of Contents</button></a>
-		<a href="#"><button><span id="plus">&#43;</button></a>
-		</div>
-		</div>
-<!-- Articles link for direction2 -->
-		<!-- <div class="flex-container">
-			<div class="links">
-			<a href="#designandcrime"><button>Design & Crime</button></a>
-			<a href="#gestalt"><button>Factory</button></a>
-			<a href="#c1962"><button>Concept</button></a>
-			</div> 
-	</div> -->
-	<!-- Below is my introduction to the theme of the articles -->
+	<!-- Article for The Concept Of The Design Discipline -->
 	 <article>
-			<section>
-				<h3 class="introh3"><!--<span id="circle">&#9680;</span>--> Introduction</h3>
-				<p class="intropa">Since the early 20th century, design has shifted from being viewed as a decorative luxury for the wealthy to becoming an accessible, everyday functional commodity due to mass production. In this collection of readings, I have selected three articles that explore the critique of the Art Nouveau-style approach to design, how mass production has simplified design, and how design has evolved to become invisible in our everyday lives.</p>
-				<p>Design education not only teaches its technical and historical canon, or how to design, but more importantly teaches students how to be designers in society and in relation to capital,” writes designer Jacob Lindgren. “A school becomes a factory producing designers, one that, in keeping with the principles of ‘good design,’ turns them into efficient and interchangeable parts ready to hit the market.” In a new essay, Lindgren proposes models that may help us undo this factory setting of graphic design.</p>
-	<!-- Section for direction3 -->
-				<!-- <section class="aboutarticles">
-				 <h3 class="start">Start reading</h3>
-				 <h3 class="articlename"><u>Design & <span id="red">Crime</span><br>& Other Diatribes</u></h3>
-				 <h4>Hal Foster, 2000</h4>
-					<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-					<h3 class="articlename"><u>Graphic Design’s Factory Settings</u></h3>
-					<h4>Jacob Lindgren, 2020</h4>
-					   <p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-					   <h3 class="articlename"><u>The <span id="red">Concept</span> Of The Design Discipline</u></h3>
-					   <h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-						  <p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
+		<h3>Abstract</h3>
+		<section class="normal">
+				<p>In their previous work, the authors have demonstrated that the discipline of design has been superseded by a condition where conventionally set design disciplines have dissolved.<sup>1 2 3</sup> In this age where design is typified by fluid, evolving patterns of practice that regularly traverse, transcend and transfigure historical disciplinary and conceptual boundaries, the authors have argued that globalization and the proliferation of the digital has resulted in connections that are no longer ‘amid,’ cannot be measured ‘across,’ nor encompass a ‘whole’ system. In short, this ‘disciplinary turn’ has generated an ‘other’ dimension—an alternative disciplinarity.<sup>4</sup></p>
+				<p>Moreover, this reliance on the ‘exhausted’ historic disciplines has become obsolete as the boundaries of our understanding have been superseded by a boundless space / time that we call ‘alter-plinarity.’<sup>5</sup></p>
+				<p class="bigtext1">The fragmentation of distinct disciplines has shifted creative practice from being ‘discipline-based’ to ‘issue- or project-based.’<sup>6</sup></p>
+				<p>Consequently, this paper presents a manifesto for the future design discipline that emphasizes disposing carefully of what you know, teaching what you do not know whilst always taking design seriously, protecting us from what we want, objecting to sustaining everything, designing without reproach, ensuring that objects are invisible but designed with care and within history whilst exploring design as an idea rather than an ideal.</p>
+			<section class="withbackground">
+			<h3>Introduction</h3>
+			<p>Since the 1950s, the adoption and application of the word design has been expanding continuously both in type and remit, and now extends from the design of objects and spaces that we use daily to cities, landscapes, nations, cultures, bodies, genes, political systems, and the way we produce food, to the way we travel, build cars and clone sheep.[7] The reach of design has expanded way beyond Ernesto Rogers’ description from “... from the Spoon to the City” (“... dalla cucchiaio alla citta”)[8] to the way we formulate business and, more recently, think.<sup>9</sup></p>
+			<p>With accelerated design activity anticipated well into the 21st century, it is clear that an increasing number of researchers and practitioners across a diverse range of creative and other disciplines routinely regard their methods as rooted in design practice or are using methods, techniques and approaches that could be considered “designerly.”[10] It is equally clear that design is expanding its disciplinary, conceptual, theoretical, and methodological frameworks to encompass ever-wider disciplines, activities and practice.</p>
+			<p class="bigtext1">As a result, design is either copious and being smeared as a viscous layer over the problems of the world, or what we call design is being stretched into an impermeable film expanding to keep in capital and consumption.</p>
+			<p class="important">The boundaries of what were once recognized as discrete design disciplines such as product, graphic, textile, and fashion design have been and continue to dissolve.<sup>11</sup></p>
+			<p>Key amongst these changes is the realization that an indeterminacy of professional boundaries now exists, and fluid patterns of employment within and between traditional design disciplines is commonplace. Moreover, many modern day design pursuits have a core of designerly activity backed by other subject specialist areas such as fine art, engineering, anthropology, computer science and business. The edges between product design and service design, for example, continue to be increasingly fuzzy. Mobile phone companies now offer more than a mere physical artefact (i.e. a phone), rather, they now regularly offer users the opportunities to subscribe to their services comprised of music and video downloads, among many others.</p>
+			<p>Similarly, the work of design companies and designers such as Hella Jongerius,<sup>12</sup> Ronan and Erwan Bouroullec,<sup>13</sup> Marti Guixe<sup>14</sup> and IDEO<sup>15</sup> now all regularly transcend historical disciplinary frameworks such as interior design, fine art, product design, and graphic design.</p>
+			<p>Thus, design today is characterized by fluid, evolving patterns of practice that regularly traverse, transcend and transfigure disciplinary and conceptual boundaries. This mutability means that design research, education, and practice is continually evolving. Tony Dunne, Professor of Interaction Design at the Royal College of Art, London, states:</p>
+			<p class="bigtext1">“New hybrids of design are emerging. People don’t fit in neat categories; they’re a mixture of artists, engineers, designers, thinkers.”<sup>16</sup></p>
+			<p>This paper posits that the terrain of design practice, education, and research, and its subsequent points of inquiry, are continuing to shift and extend well beyond the boundaries of the (single) discipline. That is, the discipline that was once recognized and acknowledged as design, which was born of the split of idea from manufacture, now has little to do with manufacture and a single idea.</p>
+			<p>Now the idea of design includes multiple disciplinary perspectives (i.e. multidisciplinarity) to cross-disciplinary pursuits, to the get-together of interdisciplinarity to the bricolage of transdisciplinarity and now beyond—to alter-disciplinarity, where globalization and the explosion of digital possibilities has resulted in connections that are no longer ‘in the middle of ...,’ cannot be measured ‘across,’ nor encompass an ‘entire system.’ As such, the digital has generated an ‘other’ dimension, so we might now need to consider ‘alter-disciplinarity’ or ‘undisciplinarity’ as the most effective approach in the research required for a future of design.</p>
 				</section>
-				</section>  -->
-			</article>
-<!-- Section for direction2 -->
-				<section class="articlesection">
-					<div class="articlelink"><h3 class="articlename">Design & <span id="red">Crime</span><br>& Other Diatribes</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Hal Foster, 2000</h4>
-					<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-				</section>
-				<section class="articlesection">
-					<div class="articlelink">
-						<h3 class="articlename">Graphic Design's <span id="red">Factory</span> Settings</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Jacob Lindgren, 2020</h4>
-					<p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-				</section>
-				<section class="articlesection">
-					<div class="articlelink">
-						<h3 class="articlename">The <span id="red">Concept</span> Of<br>The Design Discipline</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-					<p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
-				</section>
+	<section class="normal">
+		<h3>An Alternative Disciplinary (‘Alterplinary’) Future Manifesto</h3>
+			<p>As a way forward for the discipline of design, the authors propose an ‘alterplinary’manifesto (a portmanteau of ‘alternative’ and ‘disciplinary’). Alterplinarity is the condition contemporary design finds itself in.[17] The fluid, evolving muddle of practice that regularly cross, exceed and alter historical disciplinary and conceptual boundaries has resulted in research, education, and practice that is constantly shifting, creating, contesting and negotiating new terrains of opportunities and re-shaping the boundaries of design.</p>
+			<p class="bigtext1">This “other” dimension[18] or, as we propose, an “alternative disciplinarity”—an “alterplinarity” that does not rely on historic disciplines of design as the boundaries of our understanding has been superseded.</p>
+			<p>The digital has modified the models of design thought and action, and, as a result, research and practice should transform from a convention domesticated by the academy to a reaction to globalization that is yet to be disciplined.</p>
+		</section>
+	<section class="withbackground">
+	<h3>This Is The ‘Alterplinary’ Manifesto:</h3>
+	<h3 class="subheading">01 Dispose Carefully of What You Know</h3>
+		<p>All design thought and action should emanate from a point of not knowing. Socrates, the Greek philosopher, is attributed to have said that:</p>
+		<p class="bigtext1">“The only true wisdom is in knowing you know nothing.”</p>
+		<p>This resonates well with Kenya Hara’s notion of “Exformation”, where he makes clear that Exformation doesn’t mean making known, but understanding how little we know.[19] If we can recognize that we know so little, a method for finding out how little we know will become clear to us as well. Kenya Hara believes that comprehension and recognition of the unknown is a necessary for the beginning of any design project. Exformation should be considered the direct opposite to the familiar, meaning exploration of the unknown. Hara emphasizes how our lives are full of wonders and the unknown, and how, as a race, we need to constantly wake up and consider new perspectives.</p>
+		<p>He believes that “known” and “understood” are both horrible concepts, which usually means that your works (designs) have nothing new to offer the world. Alternatively, to succeed, Kenya Hara suggests, one has to look for the unknown consciously. The concept of “not knowing” is increasingly being acknowledged as a critical skill to tackle the complex problems we face in contemporary societies.</p>
+		<p>That is, we should not fear heading uncomfortably toward the unknown. Rather, by developing a relationship with “not knowing,” we may discover new ways of designing, living, working and thriving in our modern world. Not knowing can be an exciting proposition where we are no longer limited by what we already know, which allows for richer possibilities and more varied wisdom to prosper.[20]</p>
+	</section>
+			<section class="readnext">
+				<h3 span id="readnexttext">Read next</h3>
+				<h2 span id="nextarticle">Graphic Design’s Factory Settings</h2>
 			</section>
-<!-- Articles link for direction1 -->
-			<!-- <h3 class="articlesmain">Articles</h3>	
-		</article>
-	
-		<div class="flex-container">
-			<a href="#designandcrime"><button>Design & Crime: And Other Diatribes&nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div>
-	<div class="flex-container">
-		<a href="#designandcrime"><button>Graphic Design’s Factory Settings &nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div>
-	<div class="flex-container">
-		<a href="#designandcrime"><button>The Concept Of The Design Discipline &nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div> 
-	<article>
-			<!-- <section class="articlesection">
-			<h3 class="articlename">Design & <span id="red">Crime</span><br>& Other Diatribes</h3>
-			<h4>Hal Foster, 2000</h4>
-			<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-		</section>
-		<section class="articlesection">
-			<h3 class="articlename">Graphic Design's <span id="red">Factory</span> Settings</h3>
-			<h4>Jacob Lindgren, 2020</h4>
-			<p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-		</section>
-		<section class="articlesection">
-			<h3 class="articlename">The <span id="red">Concept</span> Of<br>The Design Discipline</h3>
-			<h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-			<p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
-		</section> -->
-	</article>
-		<footer>
-			<h1 class="footer"><mark>Intro and web by</mark></h1>
-			<!--<h1 class="footer">Intro and web by</h1>-->
-			<h1 class="authorfooter">Bulgan Bee</h1>
-		</footer>
+			</article>
 	</body>
 </html>
