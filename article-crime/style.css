@@ -30,22 +30,6 @@ h3 {
 	font-weight: bold;
 	font-style: normal;
 }
-#nextarticle {
-	font-size: 36px;
-	font-family: "Helvetica";
-	font-weight: bold;
-	font-style: italic;
-	line-height: 165%;
-}
-#readnexttext {
-	font-size: 30px;
-}
-.readnext {
-	margin-top: 50px;
-	margin-bottom: 200px;
-	margin: 16px;
-}
-
 article {
 	margin-top: 16px;
 	margin-bottom: 10px;
@@ -67,8 +51,22 @@ p {
 	padding-top: 20px
 	
 }
-section {
-	margin-bottom: 10px;
+
+#nextarticle {
+	font-size: 36px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-style: italic;
+	line-height: 165%;
+}
+#readnexttext {
+	font-size: 30px;
+}
+.readnext {
+	margin: 16px;
+	margin-top: 60px;
+	margin-bottom: 200px;
+	
 }
 
 
