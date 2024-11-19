@@ -29,6 +29,20 @@ h3 {
 	font-weight: bold;
 	font-style: normal;
 }
+#nextarticle {
+	font-size: 36px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-style: italic;
+	line-height: 165%;
+}
+#readnexttext {
+	font-size: 30px;
+}
+.readnext {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
 
 article {
 	margin: 12px;
@@ -40,25 +54,8 @@ article {
 	line-height: 170%;
 }
 .bigtext1 {
-	font-size: ;
-}
-footer {
-	background-color: #e3e3e3;
-	padding-bottom: 60px;
-	padding-left: 8px;
-}
-.authorfooter {
-	font-size: 32px;
-	font-family: "Raleway", sans-serif;
-	font-weight: bold;
-	color: #181818;
-	line-height: 10px;
-}
-.footer {
-	font-size: 18px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 600;
-	color: #e3e3e3;
+	font-size: 26px;
+	line-height: 180%;
 }
 
 
