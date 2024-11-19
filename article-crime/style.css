@@ -1,91 +1,24 @@
 
-
-#invisible {
-	font-family: "Federo";
-	font-weight: bolder;
-	font-size: 100px;
-	color: #e3e3e3;
-}
-#deco {
-	color: #cc3d3d;
-	font-weight: bold;
-}
-mark {
-	background-color: #1E1D1D;
-}
-h1 {
-	line-height: 99px;
-	color: #1E1D1D;
-	font-size: 48px;
-	font-family: "Raleway", sans-serif;
-	font-weight: bold;
-}
-.secondhead {
-	font-size: 26.5px;
-	line-height: 40px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 400;
-}
-h2 { 
-	font-family: "Federo";
-	font-size: 34px;
-	color: #504c43;
-	visibility: hidden;
-
+body {
+	background-color: #FAFAFA;
 }
 header {
 	padding-top: 48px;
 	padding-left: 8px;
 	padding-bottom: 50px;
 	line-height: 100px;
-	background-color: #e3e3e3;
 }
-.flex-container {
-	font-family: "Manrope", sans-serif;
-	font-size: 17px;
-	font-weight:550;
-	background-color: #e3e3e3;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	border-top: #161616;
-	border-style:inset
-}
-a {
-	margin-right: 12px;
-	color: #FAFAFA;
-}
-
-a :first-child  {
-	margin-left: 8px;
-}
-
-body {
-	background-color: #FAFAFA;
-}
-h3 {
-	font-family: "Federo";
-	font-size: 42px;
+h1 {
+	line-height: 99px;
+	color: #1E1D1D;
+	font-size: 64px;
+	font-family: "Helvetica";
 	font-weight: bold;
-	color: #241c07;
-	margin-bottom: 20px;
-	line-height: 140%;
 }
-.articlesmain {
-	margin-left: 10px;
-}
-.articlename {
-	margin-bottom: 10px;
-}
-h4 {
-	font-family: "Raleway", sans-serif;
-	font-weight: 600;
-	font-size: 18px;
-	color: #8c8c8c;
-	margin-bottom: 20px;
-
-}
-#red {
-	color: #cc3d3d;
+h2 { 
+	font-size: 100px;
+	font-family: "Playfair Display", serif;
+	font-style: italic;
 }
 article {
 	margin: 8px;
@@ -95,9 +28,15 @@ article {
 	font-family: "Manrope", sans-serif;
 	font-weight: 450;
 }
+
 p {
 	line-height: 180%;
 	margin-bottom: 40px;
+}
+footer {
+	background-color: #e3e3e3;
+	padding-bottom: 60px;
+	padding-left: 8px;
 }
 .authorfooter {
 	font-size: 32px;
@@ -113,47 +52,5 @@ p {
 	color: #e3e3e3;
 }
 
-footer {
-	background-color: #e3e3e3;
-	padding-bottom: 60px;
-	padding-left: 8px;
-}
-section {
-	margin-bottom: 20px;
-}
-.articlesection {
-	background-color: #161616;
-	color: #FAFAFA;
-	border-radius: 2px;
-	padding: 6px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-}
-.articleintro {
-	width: 33ch;
-	line-height: 170%;
-}
-.articlename {
-	color: #e3e3e3;
-}
 
-a {
-	color: #1E1D1D;
-	font-size: 24px;
-}
 
-ul li {
-	display: inline-block;
-	position: relative;
-}
-ul li a {
-	display: block;
-}
-ul li.links {
-	position: absolute;
-	display: none;
-}
-a {
-	font-family: "Raleway", sans-serif;
-	font-weight: 600;
-}
