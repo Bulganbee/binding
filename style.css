@@ -1,6 +1,23 @@
-p {
-	color: blueviolet;
+header {
+	background-color: #464646;
 }
+
 h1 {
-	color: brown;
+	font-family: 'Helvetica';
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 80px;
+}
+.crime {
+	display: inline-block;
+	transform: rotate(0deg);
+	
+}
+
+.discipline {
+	display: inline-block;
+	transform: rotate(-90deg);
+	margin: 20px;
+	padding-right: 200px;
+	padding-top: 100px;
 }
