@@ -1,9 +1,9 @@
 
 
 #invisible {
-	font-family: "Raleway", sans-serif;
+	font-family: "Federo";
 	font-weight: bolder;
-	font-size: 84px;
+	font-size: 100px;
 	color: #e3e3e3;
 }
 #deco {
@@ -14,9 +14,9 @@ mark {
 	background-color: #1E1D1D;
 }
 h1 {
-	line-height: 84px;
+	line-height: 99px;
 	color: #1E1D1D;
-	font-size: 36px;
+	font-size: 48px;
 	font-family: "Raleway", sans-serif;
 	font-weight: bold;
 }
@@ -27,9 +27,8 @@ h1 {
 	font-weight: 400;
 }
 h2 { 
-	font-family: "Manrope", sans-serif;
-	font-size: 20px;
-	font-weight:500;
+	font-family: "Federo";
+	font-size: 34px;
 	color: #504c43;
 	visibility: hidden;
 
@@ -64,12 +63,12 @@ body {
 	background-color: #FAFAFA;
 }
 h3 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Federo";
+	font-size: 42px;
 	font-weight: bold;
-	font-size: 30px;
 	color: #241c07;
 	margin-bottom: 20px;
-	line-height: 40px;
+	line-height: 140%;
 }
 .articlesmain {
 	margin-left: 10px;
