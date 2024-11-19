@@ -6,131 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Below is a reset, it clears off browser's default style -->
 	<link href="assets/reset.css" rel="stylesheet">
-	<!-- Below are fonts -->
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Londrina+Shadow&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
-
-		</style>
 	<!-- Below is a link to my CSS file -->
 	<link href="../assets/common.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-<!-- Header for direction1 and direction2 -->
+<!-- Main title -->
 		<header>
-			<h1><span id="deco">Decorative</span> to <span id="invisible"><mark>Invisible</mark></span></h1>
+			<div class="header">
+			<h1>Graphic</h1>
+			<h2>Design's</h2>
+			<h2 span id="titlecontinue">Factory Settings</h2>
+		</div>
+			<h3>Jacob Lindgren &nbsp; &nbsp; &nbsp;2020</h3>
 		</header>
-	<!-- Header for direction3 -->
-		<!-- <header>
-			<h1><span id="deco"><mark>Decorative</mark></span> to<br> <span id="invisible"><span id="in">In-</span><br>visible</span></h1>
-			<h2>Bulgan Bee | 2024</h2>
-		</header> -->
-	<!-- Table of contents for direction3 -->
-	<div class="flex-container">
-		<div class="links">
-		<a href="#"><button>Table of Contents</button></a>
-		<a href="#"><button><span id="plus">&#43;</button></a>
-		</div>
-		</div>
-<!-- Articles link for direction2 -->
-		<!-- <div class="flex-container">
-			<div class="links">
-			<a href="#designandcrime"><button>Design & Crime</button></a>
-			<a href="#gestalt"><button>Factory</button></a>
-			<a href="#c1962"><button>Concept</button></a>
-			</div> 
-	</div> -->
-	<!-- Below is my introduction to the theme of the articles -->
+	<!-- Article for Factory Settings -->
 	 <article>
-			<section>
-				<h3 class="introh3"><!--<span id="circle">&#9680;</span>--> Introduction</h3>
-				<p class="intropa">Since the early 20th century, design has shifted from being viewed as a decorative luxury for the wealthy to becoming an accessible, everyday functional commodity due to mass production. In this collection of readings, I have selected three articles that explore the critique of the Art Nouveau-style approach to design, how mass production has simplified design, and how design has evolved to become invisible in our everyday lives.</p>
-				<p>Design education not only teaches its technical and historical canon, or how to design, but more importantly teaches students how to be designers in society and in relation to capital,” writes designer Jacob Lindgren. “A school becomes a factory producing designers, one that, in keeping with the principles of ‘good design,’ turns them into efficient and interchangeable parts ready to hit the market.” In a new essay, Lindgren proposes models that may help us undo this factory setting of graphic design.</p>
-	<!-- Section for direction3 -->
-				<!-- <section class="aboutarticles">
-				 <h3 class="start">Start reading</h3>
-				 <h3 class="articlename"><u>Design & <span id="red">Crime</span><br>& Other Diatribes</u></h3>
-				 <h4>Hal Foster, 2000</h4>
-					<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-					<h3 class="articlename"><u>Graphic Design’s Factory Settings</u></h3>
-					<h4>Jacob Lindgren, 2020</h4>
-					   <p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-					   <h3 class="articlename"><u>The <span id="red">Concept</span> Of The Design Discipline</u></h3>
-					   <h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-						  <p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
-				</section>
-				</section>  -->
-			</article>
-<!-- Section for direction2 -->
-				<section class="articlesection">
-					<div class="articlelink"><h3 class="articlename">Design & <span id="red">Crime</span><br>& Other Diatribes</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Hal Foster, 2000</h4>
-					<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-				</section>
-				<section class="articlesection">
-					<div class="articlelink">
-						<h3 class="articlename">Graphic Design's <span id="red">Factory</span> Settings</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Jacob Lindgren, 2020</h4>
-					<p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-				</section>
-				<section class="articlesection">
-					<div class="articlelink">
-						<h3 class="articlename">The <span id="red">Concept</span> Of<br>The Design Discipline</h3>
-						<a href="#" id="arrow2">&rarr;</a>
-					</div>
-					<h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-					<p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
-				</section>
+		<section class="normal">
+				<p>“Design education not only teaches its technical and historical canon, or how to design, but more importantly teaches students how to be designers in society and in relation to capital,” writes designer Jacob Lindgren.</p>
+			<section class="withbackground">
+				<p class="bigtext1">“A school becomes a factory producing designers, one that, in keeping with the principles of ‘good design,’ turns them into efficient and interchangeable parts ready to hit the market.”</p>
+				<p> In a new essay, Lindgren proposes models that may help us undo this factory setting of graphic design.</p>
+				<p>In his book of essays, The Shape of Things, Czech philosopher and media critic Vilém Flusser argues that factories are decreasingly places where goods are produced and increasingly places where new kinds of humans are produced. Flusser viewed factories as the primary vessels and sites for agendas of progress and ideology, ones that instead of manufacturing solely goods also produced new kinds of subjects, writing that</p>
+				<p class="bigtext1">- “human history is the history of manufacturing and everything else is mere footnotes.”<sup>1</sup></p>
+				<p class="footnote">Vilém Flusser, The Shape of Things, (London: Reaktion Books, 1999), 44.</p>
 			</section>
-<!-- Articles link for direction1 -->
-			<!-- <h3 class="articlesmain">Articles</h3>	
-		</article>
-	
-		<div class="flex-container">
-			<a href="#designandcrime"><button>Design & Crime: And Other Diatribes&nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div>
-	<div class="flex-container">
-		<a href="#designandcrime"><button>Graphic Design’s Factory Settings &nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div>
-	<div class="flex-container">
-		<a href="#designandcrime"><button>The Concept Of The Design Discipline &nbsp;&nbsp;&nbsp;&nbsp;&#8594;</button></a>
-	</div> 
-	<article>
-			<!-- <section class="articlesection">
-			<h3 class="articlename">Design & <span id="red">Crime</span><br>& Other Diatribes</h3>
-			<h4>Hal Foster, 2000</h4>
-			<p class="articleintro">The book Design and Crime and Other Diatribes raises the concern that design in the 2000s has become a slave to consumerism and is straying away from its power to be critical and innovative. In chapter two, Hal Foster uses Art Nouveau’s decorative madness to draw similarity with modern consumerists' desire to use design to “complete” their lives.</p>
-		</section>
-		<section class="articlesection">
-			<h3 class="articlename">Graphic Design's <span id="red">Factory</span> Settings</h3>
-			<h4>Jacob Lindgren, 2020</h4>
-			<p class="articleintro">The author criticizes how graphic design is shaped by mass production, and schools teach students how to serve consumerist needs rather than challenging the capitalist system.</p>
-		</section>
-		<section class="articlesection">
-			<h3 class="articlename">The <span id="red">Concept</span> Of<br>The Design Discipline</h3>
-			<h4>Paul A. Rodgers, Craig Bremner 2017</h4>
-			<p class="articleintro">The reading examines the manifesto of modern design disciplines and how it changed over time. The author discusses how design has become less visible in today's world, emphasizing a quote that states, “Objects are unobservable. Only relationships between objects are observable.” This suggests that design is now more focused on the connections and interactions between humans and objects than the objects themselves.</p>
-		</section> -->
-	</article>
-		<footer>
-			<h1 class="footer"><mark>Intro and web by</mark></h1>
-			<!--<h1 class="footer">Intro and web by</h1>-->
-			<h1 class="authorfooter">Bulgan Bee</h1>
-		</footer>
+		<section class="normal">
+				<p> In an article titled “The Critical Crisis of Science,” Flusser describes a similar tautology: “Science has become automated and has transformed scientists into its own tools.”<sup>2</sup> For Flusser, learning was analogous to manufacturing: both being processes which are based on acquiring, producing and passing on—or “turning”—information.</p>
+				<p class="bigtext1">“It becomes apparent that the factory is nothing but an applied school and the school nothing but a factory for the acquisition of information.”<sup>3</sup></p>
+				<p class="footnote">Vilém Flusser, The Shape of Things, (London: Reaktion Books, 1999), 49.</p>
+			</section>
+			<section class="withbackground">
+				<p>These insights shed light on design education today. Design education not only teaches its technical and historical canon, or how to design, but more importantly teaches students how to be designers in society and in relation to capital. A school becomes a factory producing designers, one that, in keeping with the principles of “good design,” turns them into efficient and interchangeable parts ready to hit the market. Like a spinning ouroboros —a snake swallowing its own tail—educational institutions pursue what the market requires (a response to capital’s demand for cheap, standardized, and predictable parts), molding future designers into interchangeable units. To what extent has this cycle, an entanglement of design and industry, come to be considered graphic design’s “factory settings”—a kind of default, inherent, and out of the box approach to how its practice, pedagogy, and history have formed and are enacted?</p>
+			</section>
+			<section class="normal">
+				<p class="bigtext1">Graphic design is a practice inherently defined by its relationship to large-scale production and industry.</p>
+				<p>It was closely intertwined with industrial production beginning with the Arts & Crafts movement—one of the earliest manifestations of the design academy, despite William Morris’ reservations on the matter—and its master-apprentice educational model. Walter Gropius’ Bauhaus—a studio-workshop model (currently celebrating its centenary)—soon followed with its foundational training. Building from the Deutscher Werkbund, an all-encompassing union of design and industry, the Bauhaus’s educational strategy attempted to unify craft with industrial production, its motto being “Art into Industry.”<sup>4</sup></p>
+				<p>While the Bauhaus anticipated an industrial revolution capable of delivering visions of mass-produced design for social good, most artifacts produced by the school were handmade and given the finish of a machined good—designers imitated factories. The Bauhaus wasn’t inherently different in nature then the factories Flusser wrote about. In his talk “The Bauhaus Virus,” Mark Wigley posits that “the explicit agenda of Bauhaus [was] to design a new kind of human. It [was] not a place for the design of lamps and chairs—but people.”</p>
+			</section>
+			<section class="readnext">
+				<h3 span id="readnexttext">Read next</h3>
+				<h2 span id="nextarticle">The Concept Of The Design Discipline</h2>
+			</section>
+			</article>
 	</body>
 </html>

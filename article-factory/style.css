@@ -1,133 +1,27 @@
-
 header {
-	background-color: #000001;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	padding-top: 40px;
-	font-family: "Montserrat", sans-serif;
-	line-height: 90px;
-}
-mark {
-	background-color: rgb(229, 162, 7);;
-}
-#deco {
-	color: #050505;
-}
-#invisible {
-	font-family: "Montserrat", sans-serif;
+	color: #0a0a0a;
+	font-family: "Helvetica";
 	font-weight: bold;
-	font-size: 100px;
-	color: #ededed;
+	line-height: 24px;
+	padding: 16px;
+	padding-top: 40px;
 }
-#in {
-	color: #616161;
-}
+
 h1 {
-	font-size: 40px;
-	font-weight: 600;
-	color: #d3d3d3;
-	line-height: 90px;
+	font-size: 80px;
 }
-h2 {
-	padding-top: 150px;
-	font-size: 24px;
-	color: rgb(229, 162, 7);
+h2 { 
+	font-size: 80px;
 }
-article {
-	margin-top: 40px;
-	font-family: "Raleway", sans-serif;
+#titlecontinue {
+	font-size: 41.5px;
+	padding-bottom: 16px;
+	font-family: "Oxanium", sans-serif;
+	font-style: normal;
 }
-p {
-	font-size: 18px;
-	line-height: 172%;
-	padding-bottom: 20px;
-	font-family: "Montserrat", sans-serif;
-	margin: 10px;
-
-}
-
 h3 {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-size: 36px;
-}
-.introh3 {
-	margin: 10px;
-}
-.intropa {
-	margin: 10px;
-	margin-bottom: 50px;
-}
-.aboutarticles {
-	background-color: #000001;
-	margin: 0;
-	padding-top: 30px;
-	padding-left: 10px;
-	padding-bottom: 50px;
-
-}
-.start {
-	color: #ededed;
-}
-.articlename {
-	color: rgb(229, 162, 7);
-	padding-top: 20px;
-}
-h4 {
-	font-size: 18px;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	color: #808080;
-	margin-bottom: 18px;
-}
-.articleintro {
-	color: #e4e4e4;
-	font-size: 16px;
-	padding-bottom: 30px;
-}
-u {
-	text-decoration:underline;
-}
-
-
-.flex-container {
-	display: flex;
-	padding-left: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: rgb(229, 162, 7);
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-}
-#plus {
-	color: rgb(15, 15, 15);
 	font-size: 20px;
-	
-}
-a {
-	padding-right: 70px;
-	color: rgb(15, 15, 15);
-	font-family: "Montserrat", sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-}
-
-footer {
-	background-color: rgb(229, 162, 7);
-	padding-left: 10px;
-	padding-bottom: 90px;
-
-}
-.footer {
-	font-size: 20px;
-	font-family: "Montserrat", sans-serif;
-	color: rgb(12, 12, 12);
-}
-.authorfooter {
-	font-size: 40px;
-	font-family: "Montserrat", sans-serif;
-	line-height: 10px;
-	color: rgb(12, 12, 12);
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-style: normal;
 }
