@@ -24,7 +24,7 @@ h3 {
 	font-family: "Helvetica";
 	font-weight: bold;
 	font-style: normal;
-	line-height: 180%;
+	line-height: 120%;
 	margin-left: 16px;
 }
 h4 {
@@ -73,5 +73,16 @@ h4 {
 	right: 10px;
 	z-index: 5;
 	position: fixed;
+}
+.stickytitle {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: #c5c5c5;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+#subtitle-alternative {
+	font-size: 20px;
 }
 
