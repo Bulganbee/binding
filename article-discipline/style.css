@@ -76,36 +76,35 @@ h4 {
 	position: fixed;
 }
 .stickytitle {
+	background-color: #c5c5c5;
+	border-bottom: 2px solid #000000;
 	position: sticky;
 	top: 0;
 	z-index: 1;
-	background-color: #c5c5c5;
 	padding-top: 0.5px;
 	padding-bottom: 0.2%;
-	border-bottom: #0a0a0a;
-	border-style:outset;
+
 }
 .stickytitle2 {
+	border-bottom: 2px solid #000000;
 	position: sticky;
 	top: 0;
 	z-index: 4;
 	background-color: #c5c5c5;
 	padding-top: 0.5px;
 	padding-bottom: 0.2%;
-	border-bottom: #0a0a0a;
-	border-style: solid;
 }
 .stickytitle3 {
+	border-bottom: 2px solid #000000;
 	position: sticky;
 	top: 0;
 	z-index: 5;
 	background-color: #c5c5c5;
 	padding-top: 0.5px;
 	padding-bottom: 0.2%;
-	border-bottom: #0a0a0a;
-	border-style: solid;
 }
 .stickytitle4 {
+	border-bottom: 2px solid #000000;
 	position: sticky;
 	top: 0;
 	z-index: 6;
@@ -114,6 +113,7 @@ h4 {
 	padding-bottom: 0.2%;
 }
 .stickytitle5 {
+	border-bottom: 2px solid #000000;
 	position: sticky;
 	top: 0;
 	z-index: 8;
@@ -122,12 +122,12 @@ h4 {
 	padding-bottom: 0.2%;
 }
 .frontsection {
-	background-color: #ffffff;
+	background-color: #D9D9D9;
 	position: relative;
  	z-index: 3;
 }
 .frontsection2 {
-	background-color: #ffffff;
+	background-color: #D9D9D9;
 	position: relative;
  	z-index: 5;
 }
