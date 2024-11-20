@@ -4,13 +4,13 @@ header {
 	padding: 16px;
 	line-height: 100px;
 	padding-top: 40px;
-	padding-bottom: 400px;
+	padding-bottom: 300px;
 	position: relative;
 	z-index: 200;
 }
 
 body {
-	background-color: #dcdcdc;;
+	background-color: #dcdcdc;
 }
 h1 {
 	font-family: 'Montserrat';
@@ -22,8 +22,8 @@ h1 {
 .container-text {
 	display: flex;
 	justify-content: center;
-	margin-top: 10px;
-	border: #fcfcfc;
+	margin-top: 20px;
+	border: #f5f5f5;
 	border-style: solid;
 	border-radius: 100px;
 	align-items: center;
@@ -37,9 +37,38 @@ h1 {
 	font-weight: 500;
 	text-align: center;
 }
-#crime {
-	color: #ED4A34;
+
+.headertext {
+	display:inline;
+
+	white-space: nowrap;
 }
+.crime {
+	display: flex;
+	gap: 20px;
+	-webkit-animation: loop 12s infinite linear;
+	animation: loop 12s infinite linear;
+}
+.factory {
+	display: flex;
+	gap: 20px;
+	-webkit-animation: loop 17s infinite linear;
+	animation: loop 17s infinite linear;
+}
+.discipline {
+	display: flex;
+	gap: 20px;
+	-webkit-animation: loop 14s infinite linear;
+	animation: loop 14s infinite linear;
+}
+@keyframes loop {
+	100% {
+	  -webkit-transform: translateX(-100%);
+	  transform: translateX(-100%);
+	}
+  }
+
+
 mark {
 	background-color: #ED4A34;
 }
@@ -50,7 +79,7 @@ mark {
 	right: 0;
 	z-index: 100;
 	position: fixed;
-	background-color: #ffffff;
+	background-color: #f5f5f5;
 	border-top: #0a0a0a;
 	border-style: inset;
 	font-family: 'Helvetica';
@@ -83,4 +112,29 @@ mark {
 	right: 10px;
 	z-index: 100;
 	position: fixed;
+}
+h3 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-left: 16px;
+	line-height: 145%;
+}
+
+.sticky {
+	background-color: #c5c5c5;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+article {
+	margin-top: 0;
+}
+section {
+	margin-bottom: 200px;
+	padding-top: 40px;
 }
