@@ -14,7 +14,7 @@ body {
 }
 h1 {
 	font-family: 'Montserrat';
-	color: #f4f4f4;
+	color: #5c5c5c;
 	font-size: 74px;
 	font-style: normal;
 	font-weight: bolder;
@@ -40,26 +40,30 @@ h1 {
 
 .headertext {
 	display:inline;
-
 	white-space: nowrap;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
 }
 .crime {
 	display: flex;
 	gap: 20px;
-	-webkit-animation: loop 12s infinite linear;
-	animation: loop 12s infinite linear;
+	-webkit-animation: loop 16s infinite linear;
+	animation: loop 16s infinite linear;
+	white-space: nowrap;
 }
 .factory {
 	display: flex;
 	gap: 20px;
-	-webkit-animation: loop 17s infinite linear;
-	animation: loop 17s infinite linear;
+	-webkit-animation: loop 20s infinite linear;
+	animation: loop 20s infinite linear;
+
 }
 .discipline {
 	display: flex;
 	gap: 20px;
-	-webkit-animation: loop 14s infinite linear;
-	animation: loop 14s infinite linear;
+	-webkit-animation: loop 12s infinite linear;
+	animation: loop 12s infinite linear;
 }
 @keyframes loop {
 	100% {
@@ -68,6 +72,15 @@ h1 {
 	}
   }
 
+#crime {
+	color: #ED4A34;
+}
+#factory {
+	color: #eaeaea;
+}
+#discipline {
+	color: #eaeaea;
+}
 
 mark {
 	background-color: #ED4A34;
