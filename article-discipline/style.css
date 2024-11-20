@@ -59,6 +59,19 @@ h4 {
 	font-weight: 550;
 	text-decoration: none;
   }
-  #discipline {
-	color: blue;
-  }
+#arrow {
+	color: rgb(32, 32, 32);
+	background-color: rgb(255, 255, 255);
+	border: #0a0a0a;
+	border-style: inset;
+	border-radius: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+	bottom: 90px;
+	left: 314px;
+	right: 10px;
+	z-index: 5;
+	position: fixed;
+}
+
