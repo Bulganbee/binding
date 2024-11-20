@@ -28,8 +28,9 @@ h3 {
 	margin-left: 16px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 28px;
 	margin-left: 16px;
+	line-height: 145%;
 }
 #author {
 	font-size: 17px;
@@ -39,7 +40,7 @@ h4 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 5;
+	z-index: 100;
 	position: fixed;
 	background-color: #ffffff;
 	border-top: #0a0a0a;
@@ -71,16 +72,69 @@ h4 {
 	bottom: 90px;
 	left: 314px;
 	right: 10px;
-	z-index: 5;
+	z-index: 100;
 	position: fixed;
 }
 .stickytitle {
 	position: sticky;
 	top: 0;
-	z-index: 100;
+	z-index: 1;
 	background-color: #c5c5c5;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	padding-top: 0.5px;
+	padding-bottom: 0.2%;
+	border-bottom: #0a0a0a;
+	border-style:outset;
+}
+.stickytitle2 {
+	position: sticky;
+	top: 0;
+	z-index: 4;
+	background-color: #c5c5c5;
+	padding-top: 0.5px;
+	padding-bottom: 0.2%;
+	border-bottom: #0a0a0a;
+	border-style: solid;
+}
+.stickytitle3 {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	background-color: #c5c5c5;
+	padding-top: 0.5px;
+	padding-bottom: 0.2%;
+	border-bottom: #0a0a0a;
+	border-style: solid;
+}
+.stickytitle4 {
+	position: sticky;
+	top: 0;
+	z-index: 6;
+	background-color: #c5c5c5;
+	padding-top: 0.5px;
+	padding-bottom: 0.2%;
+}
+.stickytitle5 {
+	position: sticky;
+	top: 0;
+	z-index: 8;
+	background-color: #c5c5c5;
+	padding-top: 0.5px;
+	padding-bottom: 0.2%;
+}
+.frontsection {
+	background-color: #ffffff;
+	position: relative;
+ 	z-index: 3;
+}
+.frontsection2 {
+	background-color: #ffffff;
+	position: relative;
+ 	z-index: 5;
+}
+.frontsection3 {
+	background-color: #ffffff;
+	position: relative;
+ 	z-index: 7;
 }
 #subtitle-alternative {
 	font-size: 20px;
