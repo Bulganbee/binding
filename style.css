@@ -21,9 +21,9 @@ header {
 	padding: 16px;
 	line-height: 120px;
 	padding-top: 40px;
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 	position: relative;
-	z-index: 50;
+	z-index: 200;
 }
 .headcontainer {
 	overflow: hidden;
@@ -42,7 +42,7 @@ header {
 	transform: rotate(-24deg);
 }
 body {
-	background-color:#e4e4e4;
+	background-color:#101010;
 	position: relative;
 }
 h1 {
@@ -53,6 +53,16 @@ h1 {
 	font-weight: bolder;
 	stroke: rgb(255, 255, 255);
 	stroke-width: 2px;
+}
+.crimetext {
+	border-bottom: 2px solid #cacaca;
+    border-top: 2px solid #cacaca;
+}
+.factorytext {
+	border-bottom: 2px solid #cacaca;
+} 
+.disciplinetext {
+	border-bottom: 2px solid #cacaca;
 }
 .container-text {
 	display: flex;
