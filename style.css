@@ -35,8 +35,8 @@ header {
 	border-top: 2px solid #000000;
 	position: sticky;
 	z-index: 3;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 header {
 	transform: rotate(-24deg);
@@ -44,6 +44,10 @@ header {
 body {
 	background-color:#101010;
 	position: relative;
+	padding-bottom: 0%;
+}
+article {
+	padding-bottom: 0%;
 }
 h1 {
 	font-family: 'Montserrat';
@@ -177,7 +181,7 @@ mark {
 h3 {
 	font-weight: bold;
 	line-height: 145%;
-	font-size: calc(var(--root-size-h3) * 2);
+	font-size: calc(var(--root-size-h3) * 1.8);
     padding-left: calc(var(--padding-left-sticky) * 2);
 }
 article {
@@ -185,7 +189,7 @@ article {
 	background-color: #e4e4e4;
 }
 section {
-	margin-bottom: 200px;
+	padding-bottom: 200px;
 	padding-top: 40px;
 	background-color: #e4e4e4;
 }
