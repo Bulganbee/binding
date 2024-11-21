@@ -1,3 +1,89 @@
+ /* variables */
+:root {
+		--root-size: 16px;
+		--header-background-color:#ffffff; 
+		--footer-background-color: #0b0b0a;
+	--footer-text-color-yellow: #FFC72C;
+	--footer-color: #f7f7f5;
+	--article-padding-bottom: 30px;
+	--footer-padding: 20px;
+	--footer-padding-left: 16px;
+	--root-size-h1: 16px;
+	--root-size-h3: 16px;
+	--root-h2-size: 16px;
+	--footer-font-size: 22px;
+	--flex-container-padding-left: 1px;
+	--flex-container-padding-right: 1px;
+	--article-margin: 15px;
+	--padding-top: 26px;
+	--padding-links-right: 1px;
+	--padding-top-footer: 20px;
+	--padding-bottom: 20px;
+	--padding-bottom-header: 20px;
+	--padding-left: 5.25px;
+	--line-height: 140%; 
+	--margin-right-link: 10px;
+	--margin-left-links: 4px;
+	--margin-top-author: 35px;
+	--section-margin-bottom: 70px;
+	--margin-top-section: 20px;
+}
+
+body {
+	color: #030303;
+	margin: 0;
+}
+article {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-family: "Merriweather Sans", serif;
+	font-weight: 350;
+	line-height: 170%;
+}
+section {
+	padding-top: 40px;
+}
+.topspace {
+	padding-top: 40px;
+}
+ /* big paragraphs */
+.bigtext1 {
+	font-size: 24px;
+	line-height: 180%;
+}
+p {
+	margin: 16px;
+}
+ /* sections with background color */
+.withbackground {
+	background-color: #D9D9D9;
+	padding-bottom: 20px;
+	padding-top: 20px
+	
+}
+ /* Next article's name */
+#nextarticle {
+	font-size: 36px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-style: italic;
+	line-height: 165%;
+}
+ /* Subtitle that says Read next */
+#readnexttext {
+	font-size: 30px;
+}
+ /* Read next section */
+.readnext {
+	margin: 16px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	
+}
+sup {
+	line-height: 0;
+}
 
 header {
 	color: #0a0a0a;
@@ -32,10 +118,12 @@ h4 {
 	margin-left: 16px;
 	line-height: 145%;
 }
+ /* Author's name and year */
 #author {
 	font-size: 17px;
 	margin-left: 0;
 }
+ /* Navbar at the bottom */
 #navbar {
 	bottom: 0;
 	left: 0;
@@ -47,7 +135,7 @@ h4 {
 	border-style: inset;
 	font-family: 'Helvetica';
   }
-
+ /* Links within the navbar at the bottom */
   a {
 	float: left;
 	display: block;
@@ -60,6 +148,7 @@ h4 {
 	font-weight: 550;
 	text-decoration: none;
   }
+ /* Arrow button to the top */
 #arrow {
 	color: rgb(32, 32, 32);
 	background-color: rgb(255, 255, 255);
@@ -75,6 +164,7 @@ h4 {
 	z-index: 100;
 	position: fixed;
 }
+ /* Sticky titles */
 .stickytitle {
 	background-color: #c5c5c5;
 	border-bottom: 2px solid #000000;
@@ -126,12 +216,16 @@ h4 {
 	padding-top: 0.5px;
 	padding-bottom: 0.2%;
 }
+ /* Sections with the sticky */
 .frontsection {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #D9D9D9;
 	position: relative;
  	z-index: 3;
+}
+.normal {
+	
 }
 .frontsection2 {
 	padding-top: 20px;
@@ -147,9 +241,11 @@ h4 {
 	position: relative;
  	z-index: 7;
 }
+ /* Subheading for the "An Alternative Disciplinary" title */
 #subtitle-alternative {
 	font-size: 20px;
 }
+ /* Conclusion's paragraph */
 #lastparagraph {
 	margin-bottom: 40px;
 }
