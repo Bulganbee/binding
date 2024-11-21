@@ -13,7 +13,7 @@
     --padding-left-p: 8px;
     --padding-left-sticky: 8px;
     --margin-p-left: 8px;
-    --margin-p-right: 8px; /* Fixed semicolon */
+    --margin-p-right: 8px;
 }
 
 @media (min-width: 950px) {
