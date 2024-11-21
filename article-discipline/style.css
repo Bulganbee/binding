@@ -1,6 +1,7 @@
  /* variables */
 :root {
 	--root-size: 8px;
+	--root-size-nav: 8px;
 	--root-size-big: 16px;
 	--root-size-h1: 21px;
 	--root-size-h2: 46px;
@@ -19,6 +20,7 @@
 @media (min-width:950px) {
 	:root {
 		--root-size: 10px;
+		--root-size-nav: 12px;
 		--padding-left: 50px;
 		--root-size-big: 16px;
 		--root-size-h1: 32px;
@@ -149,6 +151,8 @@ h4 {
 }
  /* Navbar at the bottom */
 #navbar {
+	display: flex;
+	justify-content: space-evenly;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -168,7 +172,7 @@ h4 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: #0a0a0a;
-	font-size: 18px;
+	font-size: calc(var(--root-size-nav) * 2.4);
 	font-weight: 550;
 	text-decoration: none;
   }
