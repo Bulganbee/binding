@@ -113,32 +113,34 @@ mark {
 	background-color: #ED4A34;
 }
 
+/* Navbar at the bottom */
 #navbar {
-	/* bottom: 0; */
-	/* left: 0;
-	right: 0; */
-	z-index: 100;
-	position: sticky;
-	top: 150px;
-	background-color: #f5f5f5;
-	border-top: #0a0a0a;
-	border-style: inset;
-	font-family: 'Helvetica';
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: #ffffff;
+    border-top: #0a0a0a;
+    border-style: inset;
+    font-family: 'Helvetica';
   }
-
+ /* Links within the navbar at the bottom */
   a {
-	float: left;
-	display: block;
-	text-align: center;
-	padding: 16px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	color: #0a0a0a;
-	font-size: 16px;
-	font-family: 'Montserrat';
-	font-weight: 550;
-	text-decoration: none;
-  }
+    float: left;
+    display: block;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0a0a0a;
+    font-size: calc(var(--root-size-nav) * 2.4);
+    font-weight: 550;
+    text-decoration: none;
+     }
+	 
 #arrow {
 	color: rgb(32, 32, 32);
 	background-color: rgb(255, 255, 255);
@@ -157,7 +159,6 @@ mark {
 h3 {
 	font-size: 28px;
 	font-weight: bold;
-	margin-left: 16px;
 	line-height: 145%;
 }
 article {
