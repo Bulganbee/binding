@@ -208,37 +208,6 @@ h2 {
 mark {
 	background-color: #AD8AFF;
 }
-
-/* Navbar at the bottom */
-#navbar {
-    display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 400;
-    position: fixed;
-    background-color: #ffffff;
-    border-top: #0a0a0a;
-    border-style: inset;
-    font-family: "Oxanium", serif;
-  }
- /* Links within the navbar at the bottom */
-  .mainlink {
-    float: left;
-    display: block;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #0a0a0a;
-    font-size: calc(var(--root-size-nav) * 2.4);
-    font-weight: 550;
-    text-decoration: none;
-     }
-a:hover {
-	background-color: #ED4A34;
-  	color: white;
-}
 #arrow {
 	color: rgb(32, 32, 32);
 	background-color: rgb(255, 255, 255);
@@ -254,6 +223,7 @@ a:hover {
 	z-index: 100;
 	position: fixed;
 }
+
 h3 {
 	font-family: "Oxanium", serif;
 	font-weight: bold;

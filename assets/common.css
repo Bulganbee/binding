@@ -14,7 +14,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Londrina+Shadow&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Londrina+Shadow&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Symbols+2&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arizonia&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Londrina+Shadow&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Symbols+2&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Doodle+Shadow&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
-
+:root {
+    --root-size: 8px;
+    --root-size-nav: 8px;
+    --root-size-big: 16px;
+    --root-size-h1: 21px;
+    --root-size-sub: 21px;
+    --root-size-h2: 46px;
+    --root-size-h3: 14px;
+    --root-size-h: 14px;
+    --root-line-height: 20px;
+    --padding-left: 8px;
+    --width-p: 21ch;
+    --padding-left-p: 8px;
+    --padding-left-sticky: 8px;
+    --margin-p-left: 8px;
+    --margin-p-right: 8px;
+}
 body {
 	color: #030303;
 	margin: 0;
@@ -41,6 +57,9 @@ p {
     line-height: 170%;
 	padding-top: 30px;
 }
+sup {
+    line-height: 0;
+}
 .withbackground {
 	background-color: #D9D9D9;
 	padding-bottom: 20px;
@@ -63,7 +82,34 @@ p {
 	margin-bottom: 100px;
 	
 }
-sup {
-	line-height: 0;
+/* Navbar at the bottom */
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 400;
+    position: fixed;
+    background-color: #ffffff;
+    border-top: #0a0a0a;
+    border-style: inset;
+    font-family: "Oxanium", serif;
+  }
+ /* Links within the navbar at the bottom */
+  .mainlink {
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0a0a0a;
+    font-size: calc(var(--root-size-nav) * 2.4);
+    font-weight: 550;
+    text-decoration: none;
+     }
+a:hover {
+	background-color: #ED4A34;
+  	color: white;
 }
 
