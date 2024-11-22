@@ -37,7 +37,6 @@
 		overflow: hidden;
 	width: 60%;
 	padding-bottom: 70px;
-	border-bottom: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
 	}
 }
@@ -56,9 +55,7 @@
 header {
 	padding: 70px;
 }
-.darkrectangle {
-	visibility: hidden;
-}
+
 .otherh1 {
 font-family: "Oxanium", serif;
  color: #f1f1f1;
@@ -75,17 +72,17 @@ header {
 	padding-top: 40px;
 	padding-bottom: 110px;
 	position: relative;
-
 }
 .darkrectangle {
 	padding: 80px;
 	background-color: #1A1A1A;
-	position:relative;
-	z-index: 500;
+	position:absolute;
+	z-index: 700;
 	width: 100%;
 }
 .headcontainer {
 	overflow: hidden;
+	background-color:  #1A1A1A;
 
 }
 header {
@@ -130,8 +127,8 @@ h2 {
 .biglinkdiv {
 	background-color: #e4e4e4;
 	border-bottom: 2px solid #0c0c0c;
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 
