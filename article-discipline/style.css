@@ -1,17 +1,4 @@
  /* mobile */
- /* first paragraphs for each title */
-.topspace {
-    padding-top: 40px;
-}
-
- /* big paragraphs */
- .bigtext1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: calc(var(--root-size-big) * 1.7);
-    line-height: 180%;
-    width: calc(var(--width-p) * 1.5); 
-}
 
 .authordiv {
     display: flex;
@@ -131,34 +118,6 @@ h4 {
     font-size: calc(var(--root-size-h3) * 2)
     
 }
- /* Navbar at the bottom */
-#navbar {
-    display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    position: fixed;
-    background-color: #ffffff;
-    border-top: #0a0a0a;
-    border-style: inset;
-    font-family: 'Helvetica';
-  }
- /* Links within the navbar at the bottom */
-  a {
-    float: left;
-    display: block;
-    text-align: center;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #0a0a0a;
-    font-size: calc(var(--root-size-nav) * 2.4);
-    font-weight: 550;
-    text-decoration: none;
-    
-  }
  /* Arrow button to the top */
 #arrow {
     color: rgb(32, 32, 32);
@@ -275,3 +234,4 @@ h4 {
     .authordiv {
         display: flex;
         align-items: baseline;
+    }
