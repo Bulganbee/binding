@@ -34,6 +34,8 @@
 	--right-arrow: 84px;
 	--bottom-arrow: 50px;
 	--padding-left-sticky: 5px;
+	--width-bigt: 21ch;
+	--margin-left-next: 16px;
 }
 body {
 	color: #030303;
@@ -88,6 +90,7 @@ sup {
 }
 #readnexttext {
 	font-size: 30px;
+	padding: 10px;
 }
 .readnext {
 	margin: 16px;
@@ -136,12 +139,12 @@ a:hover {
 }
  /* Subtitle that says Read next */
 #readnexttext {
-    font-size: 30px;
+    font-size: 20px;
 }
  /* Read next section */
 .readnext {
-    margin: 16px;
+    margin-left: calc(var(--margin-left-next) * 1);
     margin-top: 40px;
-    margin-bottom: 100px;  
+	padding-bottom: 100px;
 }
 

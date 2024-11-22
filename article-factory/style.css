@@ -1,67 +1,79 @@
 header {
-	color: #0a0a0a;
-	font-family: "Helvetica";
+	font-family: "Oxanium", sans-serif;
 	font-weight: bold;
 	line-height: 24px;
 	padding: 16px;
 	padding-top: 40px;
 }
-
 h1 {
-	font-size: 80px;
+    font-size: calc(var(--root-size-h1) * 3);
 }
 h2 { 
-	font-size: 80px;
+    font-size: calc(var(--root-size-h2) * 2);
+}
+h3 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+    font-size: calc(var(--root-size-h3) * 2);
+    padding-left: calc(var(--padding-left-sticky) * 2);
+}
+.bigtext1 {
+    width: calc(var(--width-bigt) * 1);
+}
+h4 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 16px;
+    line-height: 145%;
+}
+p {
+	width: calc(var(--width-p) * 1.7);
 }
 #titlecontinue {
-	font-size: 41.5px;
+	font-size: calc(var(--root-size-h3) * 3.3);
 	padding-bottom: 16px;
 	font-family: "Oxanium", sans-serif;
 	font-style: normal;
 }
-h3 {
-	font-size: 20px;
-	font-family: "Helvetica";
-	font-weight: bold;
-	font-style: normal;
-}
-#navbar {
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	position: fixed;
-	background-color: #ffffff;
-	border-top: #0a0a0a;
-	border-style: inset;
-	font-family: 'Helvetica';
-  }
 
-  a {
-	float: left;
-	display: block;
-	text-align: center;
-	padding: 16px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #0a0a0a;
-	font-size: 18px;
-	font-weight: 550;
-	text-decoration: none;
-  }
-  
-#arrow {
-	color: rgb(32, 32, 32);
-	background-color: rgb(255, 255, 255);
-	border: #0a0a0a;
-	border-style: inset;
-	border-radius: 8px;
-	font-size: 24px;
-	font-weight: bold;
-	padding: 10px;
-	bottom: 90px;
-	left: 314px;
-	right: 10px;
-	z-index: 100;
-	position: fixed;
+
+ /* Arrow button to the top */
+ #arrow {
+    color: rgb(32, 32, 32);
+    background-color: rgb(255, 255, 255);
+    border: #0a0a0a;
+    width: 50px;
+    border-style: inset;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    bottom: calc(var(--bottom-arrow) * 2);
+    right: 20px;
+    z-index: 100;
+    position: fixed;
+}
+
+@media (min-width: 950px) {
+    :root {
+        --root-size: 10px;
+        --root-size-nav: 12px;
+        --padding-left: 50px;
+        --root-size-big: 16px;
+        --root-size-h1: 32px;
+        --root-size-sub: 32px;
+        --root-size-h2: 50px;
+        --root-size-h3: 16px;
+        --padding-left-p: 50px;
+        --width-p: 40ch;
+        --left-arrow: 480px;
+        --right-arrow: 20px;
+        --bottom-arrow: 60px;
+        --padding-left-sticky: 27px;
+		--width-bigt: 50ch;
+		--margin-left-next: 94px;
+	}
 }
