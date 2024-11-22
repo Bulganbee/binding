@@ -64,7 +64,7 @@ h4 {
     font-size: calc(var(--root-size-h) * 1.5);
     border-bottom: 3px solid;
     padding-left: 0;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
 }
 #author1 {
     font-size: calc(var(--root-size-h) * 1.5);
