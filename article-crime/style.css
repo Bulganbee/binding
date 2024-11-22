@@ -1,101 +1,130 @@
-
-
+.authordiv {
+    display: flex;
+    flex-direction: column;
+    line-height: 120%;
+}
+.headerdiv {
+    padding-bottom: 20px;
+	line-height: 90px;
+}
 header {
-	color: #0a0a0a;
-	font-family: "Playfair Display", serif;
-	font-style: italic;
-	line-height: 10px;
-	padding: 16px;
-	padding-top: 40px;
+    color: #e8e8e8;
+    background-color:  #1A1A1A;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    line-height: calc(var(--root-line-height) * 4);
+    padding-left: calc(var(--padding-left) * 2);
+    padding-top: 40px;
+    display: flex;
 }
 h1 {
-	font-size: 70px;
-	font-family: "Helvetica";
-	font-weight: bold;
-	font-style: normal;
+    font-size: calc(var(--root-size-h1) * 1.95);
 }
 h2 { 
-	font-size: 108px;
+    font-size: calc(var(--root-size-h2) * 2);
+}
+#andother {
+	font-size: calc(var(--root-size-h2) * 0.84);
 }
 #titlecontinue {
-	font-size: 36px;
-	padding-bottom: 16px;
+    font-size: calc(var(--root-size-h2) * 2);
+    font-family: "Oxanium", serif;
+    font-style: normal;
+}
+#crime {
+    font-size: calc(var(--root-size-sub) * 5.5);
+    color: #FE5B51;
+}
+ /* Author's name, volume, and year */
+ #volume {
+    font-size: calc(var(--root-size-h) * 1.5);
+    border-bottom: 3px solid;
+    border-color: #FACA01;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+#author1 {
+    font-size: calc(var(--root-size-h) * 1.5);
+    border-left: 3px solid;
+    border-color: #FE5B51;
+    padding: 10px;
 }
 h3 {
-	font-size: 20px;
-	font-family: "Helvetica";
-	font-weight: bold;
-	font-style: normal;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+    font-size: calc(var(--root-size-h3) * 2);
+    padding-left: calc(var(--padding-left-sticky) * 2);
 }
-
+h4 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 16px;
+    line-height: 145%;
+}
 .bigtext1 {
-	font-size: 26px;
-	line-height: 180%;
+    width: calc(var(--width-p) * 1);
 }
-p {
-	margin: 16px;
+
+ /* Arrow button to the top */
+ #arrow {
+    color: rgb(32, 32, 32);
+    background-color: rgb(255, 255, 255);
+    border: #0a0a0a;
+    width: 50px;
+    border-style: inset;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    bottom: calc(var(--bottom-arrow) * 2);
+    right: 20px;
+    z-index: 100;
+    position: fixed;
 }
-.withbackground {
-	background-color: #D9D9D9;
-	padding-bottom: 20px;
-	padding-top: 20px
+
+mark {
+	background-color: #FE5B51;
+}
+
+@media (min-width: 950px) {
+    :root {
+        --root-size: 10px;
+        --root-size-nav: 12px;
+        --padding-left: 50px;
+        --root-size-big: 16px;
+        --root-size-h1: 32px;
+        --root-size-sub: 32px;
+        --root-size-h2: 50px;
+        --root-size-h3: 16px;
+        --padding-left-p: 50px;
+        --width-p: 40ch;
+        --left-arrow: 480px;
+        --right-arrow: 20px;
+        --bottom-arrow: 60px;
+        --padding-left-sticky: 27px;
+	}
+
+    .twocontentsheader {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 100px;
+    }
+    header {
+        padding-bottom: 60px;
+        line-height: 100px;
+    }
+    .readnext {
+        margin-left: calc(var(--margin-left-next) * 6.5);
+        margin-top: 40px;
+        padding-bottom: 100px;
+    }
+    #designandcrimetitle {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
 	
 }
-
-#nextarticle {
-	font-size: 36px;
-	font-family: "Helvetica";
-	font-weight: bold;
-	font-style: italic;
-	line-height: 165%;
-}
-#readnexttext {
-	font-size: 30px;
-}
-.readnext {
-	margin: 16px;
-	margin-top: 60px;
-	margin-bottom: 200px;
-	
-}
-#navbar {
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	position: fixed;
-	background-color: #ffffff;
-	border-top: #0a0a0a;
-	border-style: inset;
-	font-family: 'Helvetica';
-  }
-
-  a {
-	float: left;
-	display: block;
-	text-align: center;
-	padding: 16px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #0a0a0a;
-	font-size: 18px;
-	font-weight: 550;
-	text-decoration: none;
-  }
-#arrow {
-	color: rgb(32, 32, 32);
-	background-color: rgb(255, 255, 255);
-	border: #0a0a0a;
-	border-style: inset;
-	border-radius: 8px;
-	font-size: 24px;
-	font-weight: bold;
-	padding: 10px;
-	bottom: 90px;
-	left: 314px;
-	right: 10px;
-	z-index: 100;
-	position: fixed;
-}
-
 
