@@ -131,6 +131,11 @@ mark {
 	#top {
 		font-size: calc(var(--root-size-sub) * 3);
 	}
+	header {
+		padding-top: 60px;
+        padding-bottom: 60px;
+        line-height: 100px;
+    }
 
 
 }
