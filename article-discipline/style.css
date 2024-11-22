@@ -3,6 +3,8 @@
 .authordiv {
     display: flex;
     flex-direction: column;
+    line-height: 120%;
+    padding: 10px;
 }
  /* sections with background color */
 .withbackground {
@@ -53,53 +55,26 @@ h4 {
 #discipline {
     font-size: calc(var(--root-size-sub) * 3);
 }
+ /* Author's name, volume, and year */
 #volume {
-    font-family: "Helvetica";
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
     font-size: calc(var(--root-size-h) * 1.5);
-    padding: 0;
     border-bottom: 3px solid;
-    padding: 10px;
+    padding-left: 0;
+    padding-bottom: 4px;
 }
 #author1 {
-    font-family: "Helvetica";
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
     font-size: calc(var(--root-size-h) * 1.5);
-    padding: 0;
     border-left: 3px solid;
     padding: 10px;
 }
 #author2 {
-    font-family: "Helvetica";
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
     font-size: calc(var(--root-size-h) * 1.5);
-    padding: 0;
-    border-right: 3px solid;
+    border-left: 3px solid;
     padding: 10px;
+    padding top: 5px;
 }
-#date {
-    font-family: "Helvetica";
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
-    font-size: calc(var(--root-size-h) * 1.5);
-    padding: 0;
-    border-top: 3px solid;
-    padding: 10px;
-}
- /* Author's name and year */
-#author {
-    margin-left: 0px;
-    padding-left: 0px;
-    font-size: calc(var(--root-size-h3) * 2)
-    
-}
+
+
  /* Arrow button to the top */
 #arrow {
     color: rgb(32, 32, 32);
