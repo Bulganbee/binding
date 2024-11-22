@@ -213,11 +213,10 @@ mark {
     font-family: 'Helvetica';
   }
  /* Links within the navbar at the bottom */
-  a {
+  .mainlink {
     float: left;
     display: block;
     text-align: center;
-
     padding-top: 20px;
     padding-bottom: 20px;
     color: #0a0a0a;
@@ -225,7 +224,10 @@ mark {
     font-weight: 550;
     text-decoration: none;
      }
-
+a:hover {
+	background-color: blue;
+  color: white;
+}
 #arrow {
 	color: rgb(32, 32, 32);
 	background-color: rgb(255, 255, 255);
