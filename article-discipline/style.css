@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     line-height: 120%;
-    padding: 10px;
+}
+.headerdiv {
+    padding-bottom: 20px;
 }
  /* sections with background color */
 .withbackground {
@@ -53,7 +55,7 @@ h4 {
     font-style: normal;
 }
 #discipline {
-    font-size: calc(var(--root-size-sub) * 3);
+    font-size: calc(var(--root-size-sub) * 3.05);
 }
  /* Author's name, volume, and year */
 #volume {
@@ -71,7 +73,8 @@ h4 {
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
     padding: 10px;
-    padding top: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 
@@ -86,8 +89,8 @@ h4 {
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
-    bottom: 90px;
-    right: 30px;
+    bottom: calc(var(--bottom-arrow) * 2);
+    right: 20px;
     z-index: 100;
     position: fixed;
 }
@@ -189,6 +192,7 @@ h4 {
         --width-p: 40ch;
         --left-arrow: 480px;
         --right-arrow: 20px;
+        --bottom-arrow: 60px;
 	}
     .authordiv {
         display: flex;
