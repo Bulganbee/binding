@@ -17,20 +17,6 @@
 }
 
  /* mobile */
- body {
-    color: #030303;
-    margin: 0;
-}
-article {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: "Merriweather Sans", serif;
-    font-weight: 350;
-    line-height: 170%;
-}
-section {
-    padding-top: 40px;
-}
  /* first paragraphs for each title */
 .topspace {
     padding-top: 40px;

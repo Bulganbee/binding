@@ -206,7 +206,7 @@ h2 {
 }
 
 mark {
-	background-color: #ED4A34;
+	background-color: #AD8AFF;
 }
 
 /* Navbar at the bottom */
@@ -221,15 +221,15 @@ mark {
     background-color: #ffffff;
     border-top: #0a0a0a;
     border-style: inset;
-    font-family: 'Helvetica';
+    font-family: "Oxanium", serif;
   }
  /* Links within the navbar at the bottom */
   .mainlink {
     float: left;
     display: block;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #0a0a0a;
     font-size: calc(var(--root-size-nav) * 2.4);
     font-weight: 550;

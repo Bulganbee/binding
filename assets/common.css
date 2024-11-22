@@ -20,19 +20,26 @@ body {
 	margin: 0;
 }
 article {
-	margin-top: 16px;
 	margin-bottom: 10px;
-	font-size: 16px;
-	font-family: "Merriweather Sans", serif;
-	font-weight: 350;
+	font-family: "Oxanium", serif;
+	font-weight: 500;
 	line-height: 170%;
+}
+section {
+    padding-top: 20px;
 }
 .bigtext1 {
 	font-size: 24px;
 	line-height: 180%;
 }
 p {
-	margin: 16px;
+    margin-left: calc(var(--margin-p-left) * 1);
+    margin-right: calc(var(--margin-p-right) * 2);
+    padding-left: calc(var(--padding-left-p) * 2);
+    width: calc(var(--width-p) * 1.7);
+    font-size: calc(var(--root-size) * 2);
+    line-height: 170%;
+	padding-top: 30px;
 }
 .withbackground {
 	background-color: #D9D9D9;
@@ -42,7 +49,7 @@ p {
 }
 #nextarticle {
 	font-size: 36px;
-	font-family: "Helvetica";
+	font-family: "Oxanium", serif;
 	font-weight: bold;
 	font-style: italic;
 	line-height: 165%;
