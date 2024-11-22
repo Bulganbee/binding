@@ -13,8 +13,8 @@ In the MPS Communication Design program at Parsons, graduate students were chall
 <h2>Chosen articles</h2>
 <ul>
 <li>A chapter from <em>Design and Crime And Other Diatribes</em> by Hal Foster.</li>
-  <li>A chapter from <em>G-E-S-T-A-L-T</em> by David Reinfurt.</li>
-  <li>A chapter from <em>C-1962</em> by David Reinfurt.</li>
+  <li>A volume from <em>Graphic Design's Factory Settings</em> by Jacob Lindgren.</li>
+  <li>A chapter from <em>The Concept of The Design Discipline</em> by Paul A. Rodgers and Craig Bremner.</li>
   </ul>
 <h2>About me</h2>
 <p>Hello, my name is Bee Bulgan! I am a graduate student at MPS Communication Design at Parsons. Nice to meet you!</p>
