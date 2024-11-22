@@ -39,6 +39,11 @@
 	padding-bottom: 70px;
 	border-right: 2px solid #ffffff;
 	}
+	.maindivhead {
+		display: flex;
+		z-index: 600;
+		position: relative;
+	}
 }
 #linksbig {
 	display: grid;
@@ -46,11 +51,6 @@
 .titlebig {
 	padding-top: 20px;
 	padding-left: 0px;
-}
-.maindivhead {
-	display: flex;
-	z-index: 600;
-	position: relative;
 }
 header {
 	padding: 70px;
@@ -225,8 +225,8 @@ mark {
     text-decoration: none;
      }
 a:hover {
-	background-color: blue;
-  color: white;
+	background-color: #ED4A34;
+  	color: white;
 }
 #arrow {
 	color: rgb(32, 32, 32);
