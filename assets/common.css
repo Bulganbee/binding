@@ -33,6 +33,7 @@
 	--left-arrow: 100px;
 	--right-arrow: 84px;
 	--bottom-arrow: 50px;
+	--padding-left-sticky: 5px;
 }
 body {
 	color: #030303;

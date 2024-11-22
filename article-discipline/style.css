@@ -45,6 +45,8 @@ h3 {
     padding-left: calc(var(--padding-left-sticky) * 2);
 }
 h4 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
     font-size: 28px;
     margin-left: 16px;
     line-height: 145%;
@@ -104,6 +106,7 @@ h4 {
     z-index: 1;
     padding-top: 30px;
 	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2);
 
 }
 .stickytitle2 {
@@ -115,6 +118,7 @@ h4 {
     background-color: #c5c5c5;
     padding-top: 30px;
 	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2.5);
 }
 .stickytitle3 {
     border-bottom: 2px solid #000000;
@@ -125,6 +129,7 @@ h4 {
     background-color: #c5c5c5;
     padding-top: 30px;
 	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2.5);
 }
 .stickytitle4 {
     border-bottom: 2px solid #000000;
@@ -135,6 +140,7 @@ h4 {
     background-color: #c5c5c5;
     padding-top: 30px;
 	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2.5);
 }
 .stickytitle5 {
     border-bottom: 2px solid #000000;
@@ -145,6 +151,18 @@ h4 {
     background-color: #c5c5c5;
     padding-top: 30px;
 	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2);
+}
+.stickytitle6 {
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #c5c5c5;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: calc(var(--padding-left-sticky) * 2.5);
 }
  /* Sections with the sticky */
 .frontsection {
@@ -168,6 +186,13 @@ h4 {
     background-color: #ffffff;
     position: relative;
     z-index: 7;
+}
+.frontsection4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 9;
 }
  /* Subheading for the "An Alternative Disciplinary" title */
 #subtitle-alternative {
@@ -193,9 +218,17 @@ h4 {
         --left-arrow: 480px;
         --right-arrow: 20px;
         --bottom-arrow: 60px;
+        --padding-left-sticky: 27px;
 	}
-    .authordiv {
-        display: flex;
-        align-items: baseline;
+
+    .twocontentsheader {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 100px;
     }
+    header {
+        padding-bottom: 60px;
+        line-height: 100px;
+    }
+
 }
