@@ -44,6 +44,9 @@
 		z-index: 600;
 		position: relative;
 	}
+	.sticky1 {
+		padding-left: 85px;
+	}
 }
 #linksbig {
 	display: grid;
@@ -109,6 +112,7 @@ body {
 	z-index: 300;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 8px;
 }
 article {
 	padding-bottom: 0%;
