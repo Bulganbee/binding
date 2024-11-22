@@ -84,6 +84,7 @@ mark {
 	background-color: #FE5B51;
 }
 
+
 @media (min-width: 950px) {
     :root {
         --root-size: 10px;
