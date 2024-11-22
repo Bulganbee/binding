@@ -30,6 +30,8 @@
     --padding-left-sticky: 8px;
     --margin-p-left: 8px;
     --margin-p-right: 8px;
+	--left-arrow: 100px;
+	--right-arrow: 84px;
 }
 body {
 	color: #030303;
@@ -119,5 +121,24 @@ sup {
 a:hover {
 	background-color: #ED4A34;
   	color: white;
+}
+
+ /* Next article's name */
+ #nextarticle {
+    font-size: 36px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-style: italic;
+    line-height: 165%;
+}
+ /* Subtitle that says Read next */
+#readnexttext {
+    font-size: 30px;
+}
+ /* Read next section */
+.readnext {
+    margin: 16px;
+    margin-top: 40px;
+    margin-bottom: 100px;  
 }
 
