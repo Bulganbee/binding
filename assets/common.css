@@ -46,10 +46,6 @@ article {
 section {
     padding-top: 20px;
 }
-.bigtext1 {
-	font-size: 24px;
-	line-height: 180%;
-}
 p {
     margin-left: calc(var(--margin-p-left) * 1);
     margin-right: calc(var(--margin-p-right) * 2);
@@ -58,6 +54,11 @@ p {
     font-size: calc(var(--root-size) * 2);
     line-height: 170%;
 	padding-top: 30px;
+}
+.bigtext1 {
+	font-size: calc(var(--root-size) * 3);
+	line-height: 180%;
+	width: calc(var(--width-p) * 1);
 }
 sup {
     line-height: 0;

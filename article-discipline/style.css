@@ -14,7 +14,9 @@
 mark {
     background-color: yellow;
 }
-
+.bigtext1 {
+    width: calc(var(--width-p) * 1);
+}
 header {
     color: #0a0a0a;
     font-family: "Helvetica";
