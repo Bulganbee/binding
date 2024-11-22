@@ -49,11 +49,16 @@
 	display: grid;
 }
 .titlebig {
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-left: 0px;
+	background-color: #1A1A1A;
 }
 header {
 	padding: 70px;
+}
+.maindivhead {
+	z-index: 500;
+	position: relative;
 }
 
 .otherh1 {
@@ -95,14 +100,15 @@ body {
 }
 .sticky1 {
 	width: 100%;
-	background-color: #c5c5c5;
+	color: #e4e4e4;
+	background-color:#1A1A1A;
 	border-bottom: 2px solid #000000;
 	border-top: 2px solid #000000;
 	top: 0;
 	position: sticky;
 	z-index: 300;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 article {
 	padding-bottom: 0%;
@@ -127,6 +133,11 @@ h2 {
 .biglinkdiv {
 	background-color: #e4e4e4;
 	border-bottom: 2px solid #0c0c0c;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.biglinkdiv3rd {
+	background-color: #e4e4e4;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -244,6 +255,7 @@ a:hover {
 	position: fixed;
 }
 h3 {
+	font-family: "Oxanium", serif;
 	font-weight: bold;
 	line-height: 145%;
 	font-size: calc(var(--root-size-h3) * 1.8);
