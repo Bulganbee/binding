@@ -129,11 +129,11 @@ h4 {
 .stickytitle2 {
     border-bottom: 2px solid #000000;
     border-top: 2px solid #000000;
-    background-color:#1A1A1A;
     position: sticky;
     top: 0;
     z-index: 4;
-    background-color: #c5c5c5;
+    background-color: #1A1A1A;
+    color: white;
     padding-top: 30px;
 	padding-bottom: 30px;
     padding-left: calc(var(--padding-left-sticky) * 2.5);
@@ -144,7 +144,8 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 5;
-    background-color: #c5c5c5;
+    background-color: #1A1A1A;
+    color: white;
     padding-top: 30px;
 	padding-bottom: 30px;
     padding-left: calc(var(--padding-left-sticky) * 2.5);
@@ -155,7 +156,8 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 6;
-    background-color: #c5c5c5;
+    background-color: #1A1A1A;
+    color: white;
     padding-top: 30px;
 	padding-bottom: 30px;
     padding-left: calc(var(--padding-left-sticky) * 2.5);
@@ -166,7 +168,8 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 8;
-    background-color: #c5c5c5;
+    background-color: #1A1A1A;
+    color: white;
     padding-top: 30px;
 	padding-bottom: 30px;
     padding-left: calc(var(--padding-left-sticky) * 2);
@@ -177,7 +180,8 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #c5c5c5;
+    background-color: #1A1A1A;
+    color: white;
     padding-top: 30px;
 	padding-bottom: 30px;
     padding-left: calc(var(--padding-left-sticky) * 2.5);
