@@ -26,11 +26,6 @@ h2 {
 #andother {
 	font-size: calc(var(--root-size-h2) * 0.84);
 }
-#titlecontinue {
-    font-size: calc(var(--root-size-h2) * 2);
-    font-family: "Oxanium", serif;
-    font-style: normal;
-}
 #crime {
     font-size: calc(var(--root-size-sub) * 5.5);
     color: #FE5B51;
@@ -110,7 +105,7 @@ mark {
     .twocontentsheader {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 100px;
+        gap: 90px;
     }
     header {
         padding-bottom: 60px;
@@ -123,8 +118,20 @@ mark {
     }
     #designandcrimetitle {
 		display: grid;
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 	}
-	
+	#andother {
+		font-size: calc(var(--root-size-h2) * 1.2);
+	}
+	#crime {
+		font-size: calc(var(--root-size-sub) * 3);
+		color: #FE5B51;
+	}
+	#top {
+		font-size: calc(var(--root-size-sub) * 3);
+	}
+
+
 }
 
