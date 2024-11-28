@@ -120,7 +120,7 @@ sup {
     padding-top: 15px;
     padding-bottom: 15px;
     color: #0a0a0a;
-    font-size: calc(var(--root-size-nav) * 1.5);
+    font-size: calc(var(--root-size-nav) * 2);
     font-weight: 550;
     text-decoration: none;
      }
