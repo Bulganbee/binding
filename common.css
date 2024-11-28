@@ -117,10 +117,10 @@ sup {
     float: left;
     display: block;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #0a0a0a;
-    font-size: calc(var(--root-size-nav) * 2.4);
+    font-size: calc(var(--root-size-nav) * 1.5);
     font-weight: 550;
     text-decoration: none;
      }

@@ -1,3 +1,4 @@
+/* root variables */
 :root {
     --root-size: 8px;
     --root-size-nav: 8px;
@@ -15,11 +16,13 @@
     --margin-p-left: 8px;
     --margin-p-right: 8px;
 }
-
+/* this line of code makes the text animation not overflow */
 .headcontainer {
 	overflow: hidden;
 	
 }
+
+/* Desktop media query */
 @media (min-width: 950px) {
     :root {
         --root-size: 10px;
@@ -47,7 +50,16 @@
 	.sticky1 {
 		padding-left: 85px;
 	}
+	p {
+		margin: auto;
+		width: calc(var(--width-p) * 1.7);
+		font-size: calc(var(--root-size) * 2);
+		line-height: 170%;
+		padding-top: 30px;
+	}
 }
+
+/* For both mobile and web */
 #linksbig {
 	display: grid;
 }
@@ -101,6 +113,7 @@ body {
 	position: relative;
 	padding-bottom: 0%;
 }
+
 .sticky1 {
 	width: 100%;
 	color: #e4e4e4;
@@ -192,12 +205,14 @@ h2 {
 	-webkit-animation: loop 10s infinite linear;
 	animation: loop 10s infinite linear;
 }
+/* animation for the text */
 @keyframes loop {
 	100% {
 	  -webkit-transform: translateX(-100%);
 	  transform: translateX(-100%);
 	}
   }
+
 
 #crime {
 	color: #FE5B51;
