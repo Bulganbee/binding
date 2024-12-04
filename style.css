@@ -19,8 +19,21 @@
 /* this line of code makes the text animation not overflow */
 .headcontainer {
 	overflow: hidden;
-	
+	max-height: 450px;
 }
+.titlebig {
+	z-index: 100;
+	position:relative;
+}
+.maindivhead {
+	padding-top: 0;
+	margin-top: 0;
+}
+.titlebelow {
+	opacity: 12%;
+	filter: blur(3px);
+}
+
 
 /* Desktop media query */
 @media (min-width: 950px) {
@@ -37,7 +50,7 @@
         --width-p: 40ch;
 	}
 	.headcontainer {
-		overflow: hidden;
+	overflow: hidden;
 	width: 60%;
 	padding-bottom: 120px;
 	border-right: 2px solid #ffffff;
@@ -62,11 +75,13 @@
 /* For both mobile and web */
 #linksbig {
 	display: grid;
+	gap: 6px;
 }
+
 .titlebig {
 	padding-top: 30px;
 	padding-left: 0px;
-	background-color: #1A1A1A;
+	background-color: #131313;
 }
 header {
 	padding: 70px;
@@ -149,14 +164,24 @@ h2 {
 }
 .biglinkdiv {
 	background-color: #e4e4e4;
-	border-bottom: 2px solid #0c0c0c;
+	border: 2px solid #0c0c0c;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	width: 364px;
+}
+#designcrimelink {
+	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #FE5B51);
+}
+#factorylink {
+	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #FACA01);
 }
 .biglinkdiv3rd {
 	background-color: #e4e4e4;
+	border: 2px solid #0c0c0c;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	width: 364px;
+	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #AD8AFF);
 }
 
 

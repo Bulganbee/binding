@@ -18,7 +18,17 @@ mark {
     
 }
 .bigtext1 {
-    width: calc(var(--width-p) * 1);
+    width: calc(var(--width-p) * 1.2);
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    padding: 12px;
+}
+.quote {
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
 }
 header {
     color: #e8e8e8;
@@ -132,4 +142,7 @@ h4 {
         font-size: calc(var(--root-size-h2) * 2);
     }
     
+}
+p {
+    font-family: 'Lato';
 }
