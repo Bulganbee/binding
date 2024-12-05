@@ -1,5 +1,5 @@
  /* mobile */
-
+  /* Header section */
 header {
     color: #e8e8e8;
     background-color:  #1A1A1A;
@@ -110,7 +110,7 @@ summary {
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
     background-color:#ddd1fb;
-    width: 350px;
+    width: calc(var(--width-citationbox) * 2.35);
 }
 details[open] summary {
     border-bottom: none;
@@ -303,6 +303,7 @@ ul {
         --right-arrow: 20px;
         --bottom-arrow: 60px;
         --padding-left-sticky: 27px;
+        --width-citationbox: 187.3px;
 	}
 
     header {
@@ -323,10 +324,13 @@ ul {
       .paragraphs {
         padding: 10px;
       }
-      
-      .citationdiv {
-        padding: 10px;
+      ul {
+        width: 440px;
       }
+      summary {
+        width: 440px;
+      }
+
       .readnext {
         margin-left: calc(var(--margin-left-next) * 6.5);
         margin-top: 40px;
