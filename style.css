@@ -181,7 +181,12 @@ h2 {
 	border-bottom: 4px solid #AD8AFF;
 }
 
-
+.colophone {
+	background-color: #AD8AFF;
+	margin-bottom: 200px;
+	margin: 20px;
+	
+}
 .container-text {
 	display: flex;
 	color: #f1f1f1;
@@ -277,7 +282,6 @@ article {
 	background-color: #e4e4e4;
 }
 section {
-	padding-bottom: 200px;
+	padding-bottom: 40px;
 	padding-top: 40px;
-	background-color: #e4e4e4;
 }
