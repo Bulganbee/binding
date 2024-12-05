@@ -15,6 +15,53 @@
     padding-top: 20px
     
 }
+sup {
+    color: #9166f5;
+}
+#footnotediv {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+#arrow-foot {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+details[open] #arrow-foot {
+    transform: scaleY(-1);
+  }
+summary {
+    margin-left: calc(var(--margin-p-left) * 1);
+    padding-left: 14px;
+    margin-top: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 2px solid #0c0c0c;
+    border-bottom:2px solid #0c0c0c;
+    border-right:2px solid #0c0c0c;
+    border-left:2px solid #0c0c0c;
+    background-color:#ddd1fb;
+    width: 350px;
+}
+details[open] summary {
+    border-bottom: none;
+}
+
+ul {
+    background-color:#ddd1fb;
+    width: 350px;
+    margin-left: calc(var(--margin-p-left) * 1);
+    border-bottom:2px solid #0c0c0c;
+    border-right:2px solid #0c0c0c;
+    border-left:2px solid #0c0c0c;
+    padding-bottom: 30px;
+   
+}
+.footnote {
+    font-size: calc(var(--root-size) * 1.7);
+    width: 94%;
+}
 mark {
     background-color: #AD8AFF;
 }
