@@ -83,6 +83,9 @@ h4 {
 mark {
 	background-color: #FE5B51;
 }
+p {
+    font-family: 'Lato';
+}
 
 
 @media (min-width: 950px) {
