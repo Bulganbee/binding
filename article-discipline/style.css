@@ -1,73 +1,5 @@
  /* mobile */
 
-.authordiv {
-    display: flex;
-    flex-direction: column;
-    line-height: 120%;
-}
-.headerdiv {
-    padding-bottom: 20px;
-}
- /* sections with background color */
-.withbackground {
-    background-color: #D9D9D9;
-    padding-bottom: 20px;
-    padding-top: 20px
-    
-}
-sup {
-    color: #9166f5;
-}
-#footnotediv {
-    display: grid;
-    grid-template-columns: 7fr 1fr;
-}
-#arrow-foot {
-    display: inline-block;
-    transition: transform 0.3s ease;
-  }
-details[open] #arrow-foot {
-    transform: scaleY(-1);
-  }
-summary {
-    margin-left: calc(var(--margin-p-left) * 1);
-    padding-left: 14px;
-    margin-top: 40px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    font-size: 20px;
-    font-weight: bold;
-    border-top: 2px solid #0c0c0c;
-    border-bottom:2px solid #0c0c0c;
-    border-right:2px solid #0c0c0c;
-    border-left:2px solid #0c0c0c;
-    background-color:#ddd1fb;
-    width: 350px;
-}
-details[open] summary {
-    border-bottom: none;
-}
-
-ul {
-    background-color:#ddd1fb;
-    width: 350px;
-    margin-left: calc(var(--margin-p-left) * 1);
-    border-bottom:2px solid #0c0c0c;
-    border-right:2px solid #0c0c0c;
-    border-left:2px solid #0c0c0c;
-    padding-bottom: 30px;
-   
-}
-.footnote {
-    font-size: calc(var(--root-size) * 1.7);
-    width: 94%;
-}
-mark {
-    background-color: #AD8AFF;
-}
-.bigtext1 {
-    width: calc(var(--width-p) * 1);
-}
 header {
     color: #e8e8e8;
     background-color:  #1A1A1A;
@@ -78,27 +10,10 @@ header {
     padding-top: 40px;
     display: flex;
 }
-h1 {
-    font-size: calc(var(--root-size-h1) * 1.95);
+.headerdiv {
+    padding-bottom: 20px;
 }
-h2 { 
-    font-size: calc(var(--root-size-h2) * 2);
-}
-h3 {
-    font-family: "Oxanium", serif;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
-    font-size: calc(var(--root-size-h3) * 1.7);
-    padding-left: calc(var(--padding-left-sticky) * 2);
-}
-h4 {
-    font-family: "Oxanium", serif;
-    font-weight: bold;
-    font-size: calc(var(--root-size-h3) * 1.5);
-    margin-left: 16px;
-    line-height: 145%;
-}
+ /* Title and Author */
 #titlecontinue {
     font-size: calc(var(--root-size-h2) * 2);
     font-family: "Oxanium", serif;
@@ -107,6 +22,11 @@ h4 {
 #discipline {
     font-size: calc(var(--root-size-sub) * 3.05);
     color: #AD8AFF;
+}
+.authordiv {
+    display: flex;
+    flex-direction: column;
+    line-height: 120%;
 }
  /* Author's name, volume, and year */
 #volume {
@@ -131,23 +51,98 @@ h4 {
     padding-bottom: 20px;
 }
 
-
- /* Arrow button to the top */
-#arrow {
-    color: rgb(32, 32, 32);
-    background-color: rgb(255, 255, 255);
-    border: #0a0a0a;
-    width: 50px;
-    border-style: inset;
-    border-radius: 8px;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-    bottom: calc(var(--bottom-arrow) * 2);
-    right: 20px;
-    z-index: 100;
-    position: fixed;
+/* Titles and body texts */
+h1 {
+    font-size: calc(var(--root-size-h1) * 1.95);
 }
+h2 { 
+    font-size: calc(var(--root-size-h2) * 2);
+}
+h3 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+    font-size: calc(var(--root-size-h3) * 1.7);
+    padding-left: calc(var(--padding-left-sticky) * 2);
+}
+h4 {
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+    font-size: calc(var(--root-size-h3) * 1.5);
+    margin-left: 16px;
+    line-height: 145%;
+}
+p {
+    font-family: 'Lato';
+}
+sup {
+    color: #9166f5;
+}
+mark {
+    background-color: #AD8AFF;
+}
+ /* Dropdown footnotes div */
+ /* Div inside: details > summary >footnotediv (has text and the arrow) */
+ #footnotediv {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+ /* Arrow inside footnotediv */
+#arrow-foot {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+ /* Dynamic button for the footnote dropdown */
+details[open] #arrow-foot {
+    transform: scaleY(-1);
+  }
+summary {
+    margin-left: calc(var(--margin-p-left) * 1);
+    padding-left: 14px;
+    margin-top: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 2px solid #0c0c0c;
+    border-bottom:2px solid #0c0c0c;
+    border-right:2px solid #0c0c0c;
+    border-left:2px solid #0c0c0c;
+    background-color:#ddd1fb;
+    width: 350px;
+}
+details[open] summary {
+    border-bottom: none;
+}
+ul {
+    background-color:#ddd1fb;
+    width: 350px;
+    margin-left: calc(var(--margin-p-left) * 1);
+    border-bottom:2px solid #0c0c0c;
+    border-right:2px solid #0c0c0c;
+    border-left:2px solid #0c0c0c;
+    padding-bottom: 30px;
+   
+}
+ /* Class for the footnote paragraphs */
+.footnote {
+    font-size: calc(var(--root-size) * 1.7);
+    width: 94%;
+}
+
+/* Further body section */
+ /* sections with background color */
+ .withbackground {
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+ /* big texts */
+.bigtext1 {
+    width: calc(var(--width-p) * 1);
+}
+
  /* Sticky titles */
 .stickytitle {
     background-color: #e4e4e4;
@@ -290,9 +285,7 @@ h4 {
 #lastparagraph {
     margin-bottom: 40px;
 }
-p {
-    font-family: 'Lato';
-}
+
 
 @media (min-width: 950px) {
     :root {
@@ -312,25 +305,20 @@ p {
         --padding-left-sticky: 27px;
 	}
 
+    header {
+        padding-bottom: 60px;
+        line-height: 100px;
+    }
     .twocontentsheader {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 100px;
     }
-    header {
-        padding-bottom: 60px;
-        line-height: 100px;
-    }
-    .readnext {
-        margin-left: calc(var(--margin-left-next) * 6.5);
-        margin-top: 40px;
-        padding-bottom: 100px;
-    }
     .paragraph-withfootnotes {
         display: grid;
-        grid-template-columns: 1.5fr 1fr; /* Two-thirds for paragraphs, one-third for citations */
-        gap: 20px; /* Optional spacing between columns */
-        align-items: start; /* Align items at the top */
+        grid-template-columns: 1.7fr 1fr;
+        gap: 10px; 
+        align-items: start; 
       }
       .paragraphs {
         padding: 10px;
@@ -339,23 +327,10 @@ p {
       .citationdiv {
         padding: 10px;
       }
-      summary {
-        margin-left: calc(var(--margin-p-left) * 1);
-        padding-left: 14px;
+      .readnext {
+        margin-left: calc(var(--margin-left-next) * 6.5);
         margin-top: 40px;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        font-size: 20px;
-        font-weight: bold;
-        border-top: 2px solid #0c0c0c;
-        border-bottom:2px solid #0c0c0c;
-        border-right:2px solid #0c0c0c;
-        border-left:2px solid #0c0c0c;
-        background-color:#ddd1fb;
-        width: 450px;
-    }
-    ul {
-        width: 450px;
+        padding-bottom: 100px;
     }
     
 }
