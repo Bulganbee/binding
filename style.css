@@ -75,7 +75,7 @@
 /* For both mobile and web */
 #linksbig {
 	display: grid;
-	gap: 6px;
+	overflow: hidden;
 }
 
 .titlebig {
@@ -164,24 +164,21 @@ h2 {
 }
 .biglinkdiv {
 	background-color: #e4e4e4;
-	border: 2px solid #0c0c0c;
+	border-bottom: 2px solid #0c0c0c;
+	border-top: 2px solid #0c0c0c;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 364px;
+	width: 400px;
 }
+/* #AD8AFF */
 #designcrimelink {
-	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #FE5B51);
+	border-bottom: 4px solid #FE5B51;
 }
 #factorylink {
-	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #FACA01);
+	border-bottom: 4px solid #FACA01;
 }
-.biglinkdiv3rd {
-	background-color: #e4e4e4;
-	border: 2px solid #0c0c0c;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 364px;
-	filter:  hue-rotate(-50deg) drop-shadow(4px 4px #AD8AFF);
+#disciplinelink {
+	border-bottom: 4px solid #AD8AFF;
 }
 
 
