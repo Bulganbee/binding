@@ -66,6 +66,9 @@ p {
 }
 sup {
     line-height: 0;
+    font-size:small; 
+    font-weight: bold;
+    vertical-align:super;
 }
  /* big paragraphs */
  .bigtext1 {
