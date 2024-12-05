@@ -243,6 +243,9 @@ h4 {
 #lastparagraph {
     margin-bottom: 40px;
 }
+p {
+    font-family: 'Lato';
+}
 
 @media (min-width: 950px) {
     :root {
