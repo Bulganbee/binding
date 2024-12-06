@@ -49,6 +49,7 @@ header {
 .authordiv {
     font-family: "Montserrat";
     color: #eeeeee;
+    background-color: #0f0f0f;
     display: flex;
     flex-direction: column;
     line-height: 120%;
