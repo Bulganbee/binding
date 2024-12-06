@@ -11,9 +11,11 @@
     --root-line-height: 20px;
     --padding-left: 8px;
     --width-p: 21ch;
+	--width-p-colophone: 30ch;
     --padding-left-p: 8px;
     --padding-left-sticky: 8px;
     --margin-p-left: 8px;
+	--margin-colophone: 4px;
     --margin-p-right: 8px;
 }
 /* this line of code makes the text animation not overflow */
@@ -142,8 +144,14 @@ h2 {
 .colophone {
 	background-color: #AD8AFF;
 	margin-bottom: 200px;
-	margin: 20px;
-	
+	margin-left: calc(var(--margin-colophone) * 2);
+	margin-right: calc(var(--margin-colophone) * 2);
+	padding-bottom: 30px;
+	width: auto;
+	filter: hue-rotate(-70deg) drop-shadow(8px 8px #FE5B51);
+}
+.colophoneparagraph {
+	width: calc(var(--width-p-colophone) * 2);
 }
 #subtitle {
 	font-family: "Oxanium", serif;
@@ -277,6 +285,9 @@ section {
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
+.colophonesection {
+	padding-bottom: 100px;
+}
 #bee {
 	font-size: 24px;
 	font-weight: 500;
@@ -305,6 +316,8 @@ section {
         --root-size-h3: 16px;
         --padding-left-p: 50px;
         --width-p: 40ch;
+		--margin-colophone: 150px;
+		--width-p-colophone: 20ch;
 	}
 	
 	.titlebig {
