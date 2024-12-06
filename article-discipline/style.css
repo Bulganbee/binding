@@ -372,7 +372,7 @@ header {
 	margin-top: 0;
 }
 article {
-    background-color: white;
+    background-color: #e4e4e4;
 }
 
 .crimeanimatedtextred {
@@ -382,10 +382,10 @@ article {
 	padding: 1px;
 	padding-left: 12px;
 	padding-right: 12px;
-	background-color:#0f0f0f;
+	background-color:#2b134e;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
-	color: #ababab;
+	color: #dbdbdb;
 	margin-bottom: 8px;
 }
 .disciplineanimatedtextpurple {
@@ -407,11 +407,11 @@ article {
     font-family: "Urbanist", sans-serif;
     font-weight: bold;
     font-size: 24px;
-	background-color:#0f0f0f;
+	background-color:#180c31;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
 	padding: 2px;
-    color: #ababab;
+    color: #dbdbdb;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
@@ -430,7 +430,7 @@ article {
 	padding: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
-    background-color:#0f0f0f;
+    background-color:#190d34;
 	margin-bottom: 8px;
 }
 .factoryanimatedtextyellow {

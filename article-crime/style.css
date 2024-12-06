@@ -372,7 +372,7 @@ header {
 	margin-top: 0;
 }
 article {
-    background-color: white;
+    background-color: #e4e4e4;
 }
 
 .crimeanimatedtextred {
@@ -383,7 +383,7 @@ article {
 	padding: 1px;
 	padding-left: 12px;
 	padding-right: 12px;
-	background-color:#0f0f0f;
+	background-color:#32110c;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
 	color: #ababab;
@@ -409,7 +409,7 @@ article {
     font-style: italic;
     font-weight: bold;
     font-size: 24px;
-	background-color:#0f0f0f;
+	background-color:#220401;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
 	padding: 2px;
@@ -430,7 +430,7 @@ article {
 	padding: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
-    background-color:#0f0f0f;
+    background-color:#250400;
 	margin-bottom: 8px;
 }
 .factoryanimatedtextyellow {

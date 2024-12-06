@@ -45,12 +45,14 @@
 body {
 	color: #030303;
 	margin: 0;
+    background-color: #e4e4e4;
 }
 article {
 	margin-bottom: 10px;
 	font-family: "Oxanium", serif;
 	font-weight: 500;
 	line-height: 170%;
+    background-color: #e4e4e4;
 }
 section {
     padding-top: 20px;
