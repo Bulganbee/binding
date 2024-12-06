@@ -47,7 +47,7 @@ header {
     color: #AD8AFF;
 }
 .authordiv {
-    font-family: "Montserrat";
+    font-family: "Urbanist", sans-serif;
     color: #eeeeee;
     background-color: #0f0f0f;
     display: flex;
@@ -59,20 +59,21 @@ header {
 }
  /* Author's name, volume, and year */
 #volume {
-    font-family: "Montserrat";
-    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    line-height: 140%;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #FE5B51;
+    border-color: #AD8AFF;
     padding-left: 20px;
     padding-bottom: 10px;
 }
 #author1 {
-    font-family: "Montserrat";
+    font-family: "Urbanist", sans-serif;
     font-weight: 600;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #FE5B51;
+    border-color: #AD8AFF;
+    color:#AD8AFF;
     padding: 10px;
     padding-left: 20px;
 }
@@ -93,9 +94,8 @@ h2 {
     font-size: calc(var(--root-size-h2) * 2);
 }
 h3 {
-    font-family: "Oxanium", serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: bold;
-    font-style: normal;
     line-height: 120%;
     font-size: calc(var(--root-size-h3) * 1.7);
     padding-left: calc(var(--padding-left-sticky) * 2);
@@ -373,8 +373,7 @@ article {
 }
 
 .crimeanimatedtextred {
-    font-family: "DM Serif Display", serif;
-    font-style: italic;
+    font-family: "Urbanist", sans-serif;
     font-weight: bold;
     font-size: 24px;
 	padding: 1px;
@@ -402,8 +401,7 @@ article {
 	margin-bottom: 8px;
 }
 .crimeanimatedtext {
-    font-family: "DM Serif Display", serif;
-    font-style: italic;
+    font-family: "Urbanist", sans-serif;
     font-weight: bold;
     font-size: 24px;
 	background-color:#0f0f0f;
@@ -423,6 +421,8 @@ article {
 	white-space: nowrap;
 }
 .factoryanimatedtext {
+    font-family: "Urbanist", sans-serif;
+    font-weight: bold;
     font-size: 54px;
 	padding: 2px;
 	padding-left: 20px;
@@ -432,13 +432,12 @@ article {
 }
 .factoryanimatedtextyellow {
     font-size: 54px;
-    font-family: "DM Serif Display", serif;
-    font-style: italic;
+    font-family: "Urbanist", sans-serif;
     font-weight: bold;
 	padding: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color:#FE5B51;
+	background-color:#AD8AFF;
 	color: #131313;
 	margin-bottom: 8px;
 }
@@ -542,19 +541,23 @@ article {
 		width: 180%;
 		max-height: 800px;
 		padding-bottom: 200px;
-		border-right: 1.5px solid #FE5B51;
+		border-right: 1.5px solid #AD8AFF;
 		}
      .authordiv {
             width: 100%;
         }
         #volume {
             border: hidden;
-            font-size: 42px;
+            font-size: 32px;
         }
         #author1 {
             border: hidden;
             font-size: 24px;
             font-weight: 300;
+            color:#d5d5d5;
+        }
+        #volume {
+            line-height: 130%;
         }
         header {
             transform: rotate(-12deg);
