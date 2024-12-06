@@ -29,10 +29,6 @@
 	padding-top: 0;
 	margin-top: 0;
 }
-.titlebelow {
-	opacity: 12%;
-	filter: blur(3px);
-}
 
 
 /* Desktop media query */
@@ -52,7 +48,8 @@
 	.headcontainer {
 	overflow: hidden;
 	width: 60%;
-	padding-bottom: 120px;
+	max-height: 550px;
+	padding-bottom: 200px;
 	border-right: 2px solid #ffffff;
 	}
 	.maindivhead {
@@ -76,15 +73,16 @@
 #linksbig {
 	display: grid;
 	overflow: hidden;
+
 }
 
 .titlebig {
 	padding-top: 30px;
 	padding-left: 0px;
-	background-color: #131313;
+	background-color: #151515;
 }
 header {
-	padding: 70px;
+	/* padding: 70px; */
 }
 .maindivhead {
 	z-index: 500;
@@ -102,28 +100,28 @@ font-family: "Oxanium", serif;
 
 header {
 	color: #A4A4A4;
-	padding: 16px;
+	/* padding: 16px; */
 	line-height: 120px;
 	padding-top: 40px;
 	padding-bottom: 110px;
 	position: relative;
 }
 .darkrectangle {
-	padding: 80px;
-	background-color: #1A1A1A;
+	/* padding: 80px; */
+	background-color: #151515;;
 	position:absolute;
 	z-index: 700;
 	width: 100%;
 }
 .headcontainer {
 	overflow: hidden;
-	background-color:  #1A1A1A;
+	background-color:  #151515;
 }
 header {
 	transform: rotate(-24deg);
 }
 body {
-	background-color:#1A1A1A;
+	background-color:#151515;
 	position: relative;
 	padding-bottom: 0%;
 }
@@ -131,7 +129,7 @@ body {
 .sticky1 {
 	width: 100%;
 	color: #e4e4e4;
-	background-color:#1A1A1A;
+	background-color:#161616;
 	border-bottom: 2px solid #000000;
 	border-top: 2px solid #000000;
 	top: 0;
@@ -146,7 +144,7 @@ article {
 }
 h1 {
 	font-family: "Oxanium", serif;
-	color: #1A1A1A;
+	color: #0e0e0e;
 	font-size: 80px;
 	font-style: normal;
 	font-weight: bolder;
@@ -167,7 +165,7 @@ h2 {
 	border-top: 2px solid #0c0c0c;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 400px;
+	width: auto;
 }
 /* #AD8AFF */
 #designcrimelink {
@@ -186,17 +184,6 @@ h2 {
 	margin: 20px;
 	
 }
-.container-text {
-	display: flex;
-	color: #f1f1f1;
-	justify-content: center;
-	margin-top: 20px;
-	border-left: 2px solid #cacaca;
-	align-items: center;
-	margin-right: 40px;
-	height: 54px;
-}
-
 #subtitle {
 	font-family: "Oxanium", serif;
 	font-size: 17px;
@@ -216,7 +203,7 @@ h2 {
 	padding-left: 12px;
 	padding-right: 12px;
 	background-color:#FE5B51;
-	color: #131313;
+	color: #161616;
 	margin-bottom: 8px;
 }
 .disciplineanimatedtextpurple {
@@ -224,12 +211,12 @@ h2 {
 	padding-left: 12px;
 	padding-right: 12px;
 	background-color:#AD8AFF;
-	color: #131313;
+	color: #161616;
 	margin-bottom: 8px;
 }
 .disciplineanimatedtext {
 	padding-top: 10px;
-	background-color:#373737;
+	background-color:#202020;
 	padding: 4px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -237,21 +224,21 @@ h2 {
 }
 .crimeanimatedtext {
 	padding-top: 10px;
-	background-color:#373737;
+	background-color:#202020;
 	padding: 4px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
 }
 .crime {
-	color:#1A1A1A;
+	color:#2c2c2c;
 	display: flex;
 	-webkit-animation: loop 16s infinite linear;
 	animation: loop 16s infinite linear;
 	white-space: nowrap;
 }
 .factoryanimatedtext {
-	background-color:#373737;
+	background-color:#202020;
 	padding: 4px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -274,7 +261,7 @@ h2 {
 	color: #131313;
 }
 .evolutionanimatedtext {
-	background-color:#373737;
+	background-color:#202020;
 	padding: 4px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -312,21 +299,6 @@ h2 {
 
 mark {
 	background-color: #AD8AFF;
-}
-#arrow {
-	color: rgb(32, 32, 32);
-	background-color: rgb(255, 255, 255);
-	border: #0a0a0a;
-	border-style: inset;
-	border-radius: 8px;
-	font-size: 24px;
-	font-weight: bold;
-	padding: 10px;
-	bottom: 90px;
-	left: 314px;
-	right: 10px;
-	z-index: 100;
-	position: fixed;
 }
 
 h3 {
