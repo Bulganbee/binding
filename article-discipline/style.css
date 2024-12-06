@@ -357,6 +357,9 @@ ul {
 	z-index: 100;
 	position:relative;
 }
+#noteparapurple {
+    background-color: #99dbfc;
+}
 
 #titlebelow {
 	padding-bottom: 50px;
