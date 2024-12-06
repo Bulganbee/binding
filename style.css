@@ -11,11 +11,11 @@
     --root-line-height: 20px;
     --padding-left: 8px;
     --width-p: 21ch;
-	--width-p-colophone: 30ch;
+	--width-p-colophon: 30ch;
     --padding-left-p: 8px;
     --padding-left-sticky: 8px;
     --margin-p-left: 8px;
-	--margin-colophone: 4px;
+	--margin-colophon: 4px;
     --margin-p-right: 8px;
 }
 /* this line of code makes the text animation not overflow */
@@ -130,28 +130,19 @@ h2 {
 	padding-bottom: 15px;
 	width: auto;
 }
-/* #AD8AFF */
-/* #designcrimelink { */
-	/* border-bottom: 1px solid #0f0f0f; */
-/* } */
-/* #factorylink { */
-	/* border-bottom: 1px solid #0f0f0f; */
-/* } */
-/* #disciplinelink { */
-	/* border-bottom: 2px solid #0f0f0f; */
-/* } */
 
-.colophone {
+.colophon {
 	background-color: #AD8AFF;
-	margin-bottom: 200px;
-	margin-left: calc(var(--margin-colophone) * 2);
-	margin-right: calc(var(--margin-colophone) * 2);
+	margin-bottom: -40px;
+	margin-left: calc(var(--margin-colophon) * 2);
+	margin-right: calc(var(--margin-colophon) * 2);
 	padding-bottom: 30px;
+	padding-top: 30px;
 	width: auto;
 	filter: hue-rotate(-70deg) drop-shadow(8px 8px #FE5B51);
 }
-.colophoneparagraph {
-	width: calc(var(--width-p-colophone) * 2);
+.colophonparagraph {
+	width: calc(var(--width-p-colophon) * 2);
 }
 #subtitle {
 	font-family: "Oxanium", serif;
@@ -247,6 +238,21 @@ h2 {
 	-webkit-animation: loop 10s infinite linear;
 	animation: loop 10s infinite linear;
 }
+footer {
+	background-color: #121313;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: "Oxanium", serif;
+	font-weight:600;
+	font-size: calc(var(--root-size) * 2.5);
+}
+h5 {
+	color: #A4A4A4;
+	font-family: ;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
 /* animation for the text */
 @keyframes loop {
 	100% {
@@ -285,9 +291,7 @@ section {
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
-.colophonesection {
-	padding-bottom: 100px;
-}
+
 #bee {
 	font-size: 24px;
 	font-weight: 500;
@@ -316,8 +320,8 @@ section {
         --root-size-h3: 16px;
         --padding-left-p: 50px;
         --width-p: 40ch;
-		--margin-colophone: 150px;
-		--width-p-colophone: 20ch;
+		--margin-colophon: 170px;
+		--width-p-colophon: 20ch;
 	}
 	
 	.titlebig {
