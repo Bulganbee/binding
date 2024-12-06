@@ -418,8 +418,8 @@ article {
 .crime {
 	color:#2c2c2c;
 	display: flex;
-	-webkit-animation: loop 16s infinite linear;
-	animation: loop 16s infinite linear;
+	-webkit-animation: loop 19s infinite linear;
+	animation: loop 19s infinite linear;
 	white-space: nowrap;
 }
 .factoryanimatedtext {
@@ -465,8 +465,8 @@ article {
 }
 .discipline {
 	display: flex;
-	-webkit-animation: loop 15s infinite linear;
-	animation: loop 15s infinite linear;
+	-webkit-animation: loop 20s infinite linear;
+	animation: loop 20s infinite linear;
 }
 /* animation for the text */
 @keyframes loop {
@@ -562,5 +562,31 @@ article {
         .headertext {
             margin-top: -50px;
         }
+
+        .crime {
+            color:#2c2c2c;
+            display: flex;
+            -webkit-animation: loop 22s infinite linear;
+            animation: loop 22s infinite linear;
+            white-space: nowrap;
+        }
+        .factory {
+            display: flex;
+            -webkit-animation: loop 25s infinite linear;
+            animation: loop 25s infinite linear;
+        
+        }
+        .discipline {
+            display: flex;
+            -webkit-animation: loop 26s infinite linear;
+            animation: loop 26s infinite linear;
+        }
+        /* animation for the text */
+        @keyframes loop {
+            100% {
+              -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+            }
+          }
     
 }
