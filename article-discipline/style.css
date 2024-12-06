@@ -26,8 +26,8 @@
 header {
     color: #e8e8e8;
     background-color:  #1A1A1A;
-    font-family: "Oxanium", serif;
-    font-weight: bold;
+    font-family: "Montserrat";
+    font-weight:600;
     line-height: calc(var(--root-line-height) * 4);
     padding-left: calc(var(--padding-left) * 2);
     padding-top: 40px;
@@ -47,28 +47,38 @@ header {
     color: #AD8AFF;
 }
 .authordiv {
+    font-family: "Montserrat";
+    color: #eeeeee;
     display: flex;
     flex-direction: column;
     line-height: 120%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
 }
  /* Author's name, volume, and year */
 #volume {
+    font-family: "Montserrat";
+    font-weight: 600;
     font-size: calc(var(--root-size-h) * 1.5);
-    border-bottom: 3px solid;
-    border-color: #FACA01;
-    padding-left: 0;
+    border-left: 3px solid;
+    border-color: #FE5B51;
+    padding-left: 20px;
     padding-bottom: 10px;
 }
 #author1 {
+    font-family: "Montserrat";
+    font-weight: 600;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #AD8AFF;
+    border-color: #FE5B51;
     padding: 10px;
+    padding-left: 20px;
 }
 #author2 {
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #AD8AFF;
+    border-color: #FE5B51;
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 20px;
@@ -338,6 +348,7 @@ ul {
 	position: relative;
 	overflow: hidden;
     margin-left: -100px;
+    margin-right: -100px;
     margin-bottom: -20px;
 }
 /* this line of code makes the text animation not overflow */
@@ -346,6 +357,7 @@ header {
 	transform: rotate(-24deg);
     padding: 0%;
     margin: 0%;
+    background-color: #121313;
 }
 .headcontainer {
 	overflow: hidden;
@@ -355,17 +367,26 @@ header {
 	padding-top: 0;
 	margin-top: 0;
 }
+article {
+    background-color: white;
+}
 
 .crimeanimatedtextred {
-	padding: 4px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+	padding: 1px;
 	padding-left: 12px;
 	padding-right: 12px;
-	background-color:#FE5B51;
-	color: #161616;
+	background-color:#171717;
+    /* border-bottom: 1.5px solid #727272; */
+    /* border-top: 1.5px solid #727272; */
+	color: #ababab;
 	margin-bottom: 8px;
 }
 .disciplineanimatedtextpurple {
-	padding: 4px;
+	padding: 2px;
 	padding-left: 12px;
 	padding-right: 12px;
 	background-color:#AD8AFF;
@@ -373,17 +394,22 @@ header {
 	margin-bottom: 8px;
 }
 .disciplineanimatedtext {
-	padding-top: 10px;
 	background-color:#202020;
-	padding: 4px;
+	padding: 2px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
 }
 .crimeanimatedtext {
-	padding-top: 10px;
-	background-color:#202020;
-	padding: 4px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+	background-color:#171717;
+    /* border-bottom: 1.5px solid #727272; */
+    /* border-top: 1.5px solid #727272; */
+	padding: 2px;
+    color: #ababab;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
@@ -396,23 +422,28 @@ header {
 	white-space: nowrap;
 }
 .factoryanimatedtext {
-	background-color:#202020;
-	padding: 4px;
-	padding-left: 12px;
-	padding-right: 12px;
+    font-size: 54px;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color:#0f0f0f;
 	margin-bottom: 8px;
 }
 .factoryanimatedtextyellow {
-	padding: 4px;
-	padding-left: 12px;
-	padding-right: 12px;
-	background-color:#FACA01;
+    font-size: 54px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-weight: bold;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#FE5B51;
 	color: #131313;
 	margin-bottom: 8px;
 }
 .evolutionanimatedtextblue {
 	background-color: #51C4FE;
-	padding: 4px;
+	padding: 2px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
@@ -420,7 +451,7 @@ header {
 }
 .evolutionanimatedtext {
 	background-color:#202020;
-	padding: 4px;
+	padding: 2px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
@@ -508,7 +539,7 @@ header {
 	}
     .headcontainer {
 		width: 130%;
-		max-height: 780px;
+		max-height: 800px;
 		padding-bottom: 200px;
 		border-right: 1.5px solid #AD8AFF;
 		}
