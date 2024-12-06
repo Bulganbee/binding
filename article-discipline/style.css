@@ -1,5 +1,28 @@
+ /* root variables */
+:root {
+    --root-size: 8px;
+    --root-size-nav: 8px;
+    --root-size-big: 16px;
+    --root-size-h1: 21px;
+    --root-size-sub: 21px;
+    --root-size-h2: 46px;
+    --root-size-h3: 14px;
+    --root-size-h: 14px;
+    --root-line-height: 20px;
+    --padding-left: 8px;
+    --width-p: 21ch;
+    --padding-left-p: 8px;
+    --padding-left-sticky: 8px;
+    --margin-p-left: 8px;
+    --margin-p-right: 8px;
+}
  /* mobile */
   /* Header section */
+  body {
+	background-color:#121313;
+	position: relative;
+	padding-bottom: 0%;
+}
 header {
     color: #e8e8e8;
     background-color:  #1A1A1A;
@@ -291,6 +314,135 @@ ul {
 #lastparagraph {
     margin-bottom: 40px;
 }
+ /* New header section */
+.titlebig {
+	z-index: 100;
+	position:relative;
+}
+
+#titlebelow {
+	padding-bottom: 50px;
+}
+ /* Text animation header new */
+.headcontainer {
+	overflow: hidden;
+	background-color: #121313;
+    width: auto;
+    height: 260px;
+    margin: 0%;
+}
+.headertext {
+	display:inline;
+	white-space: nowrap;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+    margin-left: -100px;
+    margin-bottom: -20px;
+}
+/* this line of code makes the text animation not overflow */
+
+header {
+	transform: rotate(-24deg);
+    padding: 0%;
+    margin: 0%;
+}
+.headcontainer {
+	overflow: hidden;
+	max-height: 450px;
+}
+.maindivhead {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.crimeanimatedtextred {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#FE5B51;
+	color: #161616;
+	margin-bottom: 8px;
+}
+.disciplineanimatedtextpurple {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#AD8AFF;
+	color: #161616;
+	margin-bottom: 8px;
+}
+.disciplineanimatedtext {
+	padding-top: 10px;
+	background-color:#202020;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.crimeanimatedtext {
+	padding-top: 10px;
+	background-color:#202020;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.crime {
+	color:#2c2c2c;
+	display: flex;
+	-webkit-animation: loop 16s infinite linear;
+	animation: loop 16s infinite linear;
+	white-space: nowrap;
+}
+.factoryanimatedtext {
+	background-color:#202020;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.factoryanimatedtextyellow {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#FACA01;
+	color: #131313;
+	margin-bottom: 8px;
+}
+.evolutionanimatedtextblue {
+	background-color: #51C4FE;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+	color: #131313;
+}
+.evolutionanimatedtext {
+	background-color:#202020;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.factory {
+	display: flex;
+	-webkit-animation: loop 18s infinite linear;
+	animation: loop 18s infinite linear;
+
+}
+.discipline {
+	display: flex;
+	-webkit-animation: loop 10s infinite linear;
+	animation: loop 10s infinite linear;
+}
+/* animation for the text */
+@keyframes loop {
+	100% {
+	  -webkit-transform: translateX(-100%);
+	  transform: translateX(-100%);
+	}
+  }
 
 
 @media (min-width: 950px) {
@@ -347,6 +499,21 @@ ul {
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+     /* New header section */
+    .maindivhead {
+		display: flex;
+		z-index: 600;
+		position: relative;
+		border-bottom: 1.5px solid #AD8AFF;
+	}
+    .headcontainer {
+		width: 130%;
+		max-height: 780px;
+		padding-bottom: 200px;
+		border-right: 1.5px solid #AD8AFF;
+		}
+     .titlebig {
+            width: 100%;
+        }
     
 }
