@@ -379,7 +379,7 @@ article {
 	padding: 1px;
 	padding-left: 12px;
 	padding-right: 12px;
-	background-color:#171717;
+	background-color:#0f0f0f;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
 	color: #ababab;
@@ -405,7 +405,7 @@ article {
     font-style: italic;
     font-weight: bold;
     font-size: 24px;
-	background-color:#171717;
+	background-color:#0f0f0f;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
 	padding: 2px;
@@ -464,8 +464,8 @@ article {
 }
 .discipline {
 	display: flex;
-	-webkit-animation: loop 10s infinite linear;
-	animation: loop 10s infinite linear;
+	-webkit-animation: loop 15s infinite linear;
+	animation: loop 15s infinite linear;
 }
 /* animation for the text */
 @keyframes loop {
@@ -535,16 +535,31 @@ article {
 		display: flex;
 		z-index: 600;
 		position: relative;
-		border-bottom: 1.5px solid #AD8AFF;
+		/* border-bottom: 1.5px solid #FE5B51; */
 	}
     .headcontainer {
-		width: 130%;
+		width: 180%;
 		max-height: 800px;
 		padding-bottom: 200px;
-		border-right: 1.5px solid #AD8AFF;
+		border-right: 1.5px solid #FE5B51;
 		}
-     .titlebig {
+     .authordiv {
             width: 100%;
+        }
+        #volume {
+            border: hidden;
+            font-size: 42px;
+        }
+        #author1 {
+            border: hidden;
+            font-size: 24px;
+            font-weight: 300;
+        }
+        header {
+            transform: rotate(-12deg);
+        }
+        .headertext {
+            margin-top: -50px;
         }
     
 }
