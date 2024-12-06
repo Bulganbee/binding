@@ -30,45 +30,6 @@
 	margin-top: 0;
 }
 
-
-/* Desktop media query */
-@media (min-width: 950px) {
-    :root {
-        --root-size: 10px;
-        --root-size-nav: 12px;
-        --padding-left: 50px;
-        --root-size-big: 16px;
-        --root-size-h1: 32px;
-        --root-size-sub: 32px;
-        --root-size-h2: 50px;
-        --root-size-h3: 16px;
-        --padding-left-p: 50px;
-        --width-p: 40ch;
-	}
-	.headcontainer {
-	overflow: hidden;
-	width: 60%;
-	max-height: 550px;
-	padding-bottom: 200px;
-	border-right: 2px solid #ffffff;
-	}
-	.maindivhead {
-		display: flex;
-		z-index: 600;
-		position: relative;
-	}
-	.sticky1 {
-		padding-left: 85px;
-	}
-	p {
-		margin: auto;
-		width: calc(var(--width-p) * 1.7);
-		font-size: calc(var(--root-size) * 2);
-		line-height: 170%;
-		padding-top: 30px;
-	}
-}
-
 /* For both mobile and web */
 #linksbig {
 	display: grid;
@@ -79,11 +40,9 @@
 .titlebig {
 	padding-top: 30px;
 	padding-left: 0px;
-	background-color: #151515;
+	background-color: #121313;
 }
-header {
-	/* padding: 70px; */
-}
+
 .maindivhead {
 	z-index: 500;
 	position: relative;
@@ -94,9 +53,12 @@ font-family: "Oxanium", serif;
  color: #f1f1f1;
  font-size: 60px;
  padding-left: 30px;
- padding-bottom: 40px;
+ padding-bottom: 12px;
 }
 
+#titlebelow {
+	padding-bottom: 50px;
+}
 
 header {
 	color: #A4A4A4;
@@ -108,20 +70,20 @@ header {
 }
 .darkrectangle {
 	/* padding: 80px; */
-	background-color: #151515;;
+	background-color: #121313;
 	position:absolute;
 	z-index: 700;
 	width: 100%;
 }
 .headcontainer {
 	overflow: hidden;
-	background-color:  #151515;
+	background-color:  #121313;
 }
 header {
 	transform: rotate(-24deg);
 }
 body {
-	background-color:#151515;
+	background-color:#121313;
 	position: relative;
 	padding-bottom: 0%;
 }
@@ -129,12 +91,12 @@ body {
 .sticky1 {
 	width: 100%;
 	color: #e4e4e4;
-	background-color:#161616;
-	border-bottom: 2px solid #000000;
-	border-top: 2px solid #000000;
+	background-color:#121313;
+	border-bottom: 2px solid #040404;
+	border-top: 2px solid #040404;
 	top: 0;
 	position: sticky;
-	z-index: 300;
+	z-index: 700;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 8px;
@@ -161,22 +123,21 @@ h2 {
 }
 .biglinkdiv {
 	background-color: #e4e4e4;
-	border-bottom: 2px solid #0c0c0c;
-	border-top: 2px solid #0c0c0c;
+	border-top: 4px solid #0c0c0c;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: auto;
 }
 /* #AD8AFF */
-#designcrimelink {
-	border-bottom: 4px solid #FE5B51;
-}
-#factorylink {
-	border-bottom: 4px solid #FACA01;
-}
-#disciplinelink {
-	border-bottom: 4px solid #AD8AFF;
-}
+/* #designcrimelink { */
+	/* border-bottom: 1px solid #0f0f0f; */
+/* } */
+/* #factorylink { */
+	/* border-bottom: 1px solid #0f0f0f; */
+/* } */
+/* #disciplinelink { */
+	/* border-bottom: 2px solid #0f0f0f; */
+/* } */
 
 .colophone {
 	background-color: #AD8AFF;
@@ -305,7 +266,7 @@ h3 {
 	font-family: "Oxanium", serif;
 	font-weight: bold;
 	line-height: 145%;
-	font-size: calc(var(--root-size-h3) * 1.5);
+	font-size: calc(var(--root-size-h3) * 2);
     padding-left: calc(var(--padding-left-sticky) * 2);
 }
 article {
@@ -315,4 +276,76 @@ article {
 section {
 	padding-bottom: 40px;
 	padding-top: 40px;
+}
+#bee {
+	font-size: 24px;
+	font-weight: 500;
+	color: #d7d8de;
+	/* background-color: #e4e4e4; */
+	border: 1.5px solid #AD8AFF;
+	padding: 10px;
+	width: 14ch;
+	/* border-radius: 20px; */
+	margin-left: 10px;
+	text-align: center;
+	margin-left: 30px;
+	
+}
+
+/* Desktop media query */
+@media (min-width: 950px) {
+    :root {
+        --root-size: 10px;
+        --root-size-nav: 12px;
+        --padding-left: 50px;
+        --root-size-big: 16px;
+        --root-size-h1: 32px;
+        --root-size-sub: 32px;
+        --root-size-h2: 50px;
+        --root-size-h3: 16px;
+        --padding-left-p: 50px;
+        --width-p: 40ch;
+	}
+	
+	.titlebig {
+		width: 100%;
+	}
+	.headcontainer {
+		width: 130%;
+		max-height: 780px;
+		padding-bottom: 200px;
+		border-right: 1.5px solid #AD8AFF;
+		}
+
+	.otherh1 {
+		padding-bottom: 40px;
+			}
+	.maindivhead {
+		display: flex;
+		z-index: 600;
+		position: relative;
+		border-bottom: 1.5px solid #AD8AFF;
+
+	}
+	#titlebelow {
+		padding-bottom: 208.5px;
+		line-height: 24px;
+		padding-top: 40px;
+	}
+	.biglinkdiv {
+		width: auto;
+		padding-top: 50px;
+	}
+	.sticky1 {
+		padding-left: 85px;
+		border-bottom: 1.5px solid #080808;
+		border-top: 1.5px solid #080808;
+	}
+	p {
+		margin: auto;
+		width: calc(var(--width-p) * 1.7);
+		font-size: calc(var(--root-size) * 2);
+		line-height: 170%;
+		padding-top: 30px;
+	}
 }
