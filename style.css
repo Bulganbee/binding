@@ -145,9 +145,9 @@ article {
 	padding-bottom: 0%;
 }
 h1 {
-	font-family: "Zilla Slab Highlight", serif;
-	color: #373737;
-	font-size: 90px;
+	font-family: "Oxanium", serif;
+	color: #1A1A1A;
+	font-size: 80px;
 	font-style: normal;
 	font-weight: bolder;
 	stroke: rgb(255, 255, 255);
@@ -211,23 +211,83 @@ h2 {
 	position: relative;
 	overflow: hidden;
 }
+.crimeanimatedtextred {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#FE5B51;
+	color: #131313;
+	margin-bottom: 8px;
+}
+.disciplineanimatedtextpurple {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#AD8AFF;
+	color: #131313;
+	margin-bottom: 8px;
+}
+.disciplineanimatedtext {
+	padding-top: 10px;
+	background-color:#373737;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.crimeanimatedtext {
+	padding-top: 10px;
+	background-color:#373737;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
 .crime {
+	color:#1A1A1A;
 	display: flex;
-	gap: 20px;
 	-webkit-animation: loop 16s infinite linear;
 	animation: loop 16s infinite linear;
 	white-space: nowrap;
 }
+.factoryanimatedtext {
+	background-color:#373737;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
+.factoryanimatedtextyellow {
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color:#FACA01;
+	color: #131313;
+	margin-bottom: 8px;
+}
+.evolutionanimatedtextblue {
+	background-color: #51C4FE;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+	color: #131313;
+}
+.evolutionanimatedtext {
+	background-color:#373737;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
 .factory {
 	display: flex;
-	gap: 20px;
 	-webkit-animation: loop 18s infinite linear;
 	animation: loop 18s infinite linear;
 
 }
 .discipline {
 	display: flex;
-	gap: 20px;
 	-webkit-animation: loop 10s infinite linear;
 	animation: loop 10s infinite linear;
 }
