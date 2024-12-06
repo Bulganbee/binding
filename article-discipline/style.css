@@ -117,7 +117,7 @@ details[open] summary {
 }
 ul {
     background-color:#ddd1fb;
-    width: 350px;
+    width: calc(var(--width-citationbox) * 2.35);
     margin-left: calc(var(--margin-p-left) * 1);
     border-bottom:2px solid #0c0c0c;
     border-right:2px solid #0c0c0c;
@@ -139,9 +139,7 @@ ul {
     padding-top: 20px
 }
  /* big texts */
-.bigtext1 {
-    width: calc(var(--width-p) * 1);
-}
+
 
  /* Sticky titles */
 .stickytitle {
@@ -289,7 +287,8 @@ ul {
 
 @media (min-width: 950px) {
     :root {
-        --root-size: 10px;
+        --root-size: 9px;
+        --root-size-bigt: 10px;
         --root-size-nav: 12px;
         --padding-left: 50px;
         --root-size-big: 16px;
@@ -298,7 +297,8 @@ ul {
         --root-size-h2: 50px;
         --root-size-h3: 16px;
         --padding-left-p: 50px;
-        --width-p: 40ch;
+        --width-p: 44ch;
+        --width-bigt: 50ch;
         --left-arrow: 480px;
         --right-arrow: 20px;
         --bottom-arrow: 60px;
@@ -330,11 +330,11 @@ ul {
       summary {
         width: 440px;
       }
-
       .readnext {
         margin-left: calc(var(--margin-left-next) * 6.5);
         margin-top: 40px;
         padding-bottom: 100px;
     }
+    
     
 }
