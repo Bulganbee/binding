@@ -80,7 +80,15 @@ sup {
     color: #9166f5;
 }
 mark {
-    background-color: #AD8AFF;
+    background-color: #f1d45f;
+}
+.noteparagraph {
+    width: calc(var(--width-citationbox) * 2.35);
+    background-color: #f1d45f;
+    border: 2px solid #0c0c0c;
+    margin-top: 60px;
+    font-size: calc(var(--root-size-bigt) * 2.5);
+    text-align: center; 
 }
  /* Dropdown footnotes div */
  /* Div inside: details > summary >footnotediv (has text and the arrow) */
@@ -289,7 +297,7 @@ ul {
     :root {
         --root-size: 9px;
         --root-size-bigt: 10px;
-        --root-size-nav: 12px;
+        --root-size-nav: 10px;
         --padding-left: 50px;
         --root-size-big: 16px;
         --root-size-h1: 32px;
@@ -334,6 +342,10 @@ ul {
         margin-left: calc(var(--margin-left-next) * 6.5);
         margin-top: 40px;
         padding-bottom: 100px;
+    }
+    #navbar {
+        padding-left: 100px;
+        padding-right: 100px;
     }
     
     
