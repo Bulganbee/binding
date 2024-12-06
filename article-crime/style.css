@@ -61,6 +61,7 @@ header {
 #volume {
     font-family: "Montserrat";
     font-weight: 600;
+    font-style: normal;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
     border-color: #FE5B51;
@@ -70,6 +71,7 @@ header {
 #author1 {
     font-family: "Montserrat";
     font-weight: 600;
+    font-style: normal;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
     border-color: #FE5B51;
@@ -363,6 +365,13 @@ header {
     margin: 0%;
     background-color: #121313;
 }
+.readnextanimated {
+    transform: rotate(-4deg);
+    padding: 0%;
+    margin: 0%;
+    margin-top: -20px;
+    background-color: #121313;
+}
 .headcontainer {
 	overflow: hidden;
 	max-height: 450px;
@@ -386,7 +395,7 @@ article {
 	background-color:#32110c;
     /* border-bottom: 1.5px solid #727272; */
     /* border-top: 1.5px solid #727272; */
-	color: #ababab;
+	color: #dcdcdc;
 	margin-bottom: 8px;
 }
 .disciplineanimatedtextpurple {
@@ -418,6 +427,16 @@ article {
 	padding-right: 12px;
 	margin-bottom: 8px;
 }
+.readnexttext {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 32px;
+	padding: 2px;
+    color: #ededed;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 8px;
+}
 .crime {
 	color:#2c2c2c;
 	display: flex;
@@ -425,11 +444,41 @@ article {
 	animation: loop 19s infinite linear;
 	white-space: nowrap;
 }
-.factoryanimatedtext {
+.nexttext {
+	display: relative;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.settingsanimatedtext {
     font-size: 54px;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
 	padding: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
+    color: #e8e8e8;
+    background-color:#001c25;
+	margin-bottom: 8px;
+}
+.settingstextblue {
+    font-size: 54px;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#51C4FE;
+	color: #131313;
+	margin-bottom: 8px;
+}
+.factoryanimatedtext {
+    font-family: "Montserrat";
+    font-size: 54px;
+    font-weight: bold;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+    color: #e8e8e8;
     background-color:#250400;
 	margin-bottom: 8px;
 }
@@ -462,8 +511,8 @@ article {
 }
 .factory {
 	display: flex;
-	-webkit-animation: loop 18s infinite linear;
-	animation: loop 18s infinite linear;
+	-webkit-animation: loop 14s infinite linear;
+	animation: loop 14s infinite linear;
 
 }
 .discipline {
@@ -591,6 +640,23 @@ article {
               transform: translateX(-100%);
             }
           }
+          .readnexttext {
+            font-family: "Lato";
+            font-weight: bold;
+            font-size: 32px;
+            padding: 2px;
+            color: #ededed;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-bottom: 8px;
+        }
+        .readnextanimated {
+            transform: rotate(-4deg);
+            padding: 0%;
+            margin: 0%;
+            margin-top: -80px;
+            background-color: #121313;
+        }
     
 }
 
