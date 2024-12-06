@@ -500,6 +500,28 @@ article {
     font-size: 32px;
     padding-bottom: 20px;
 }
+.settingsanimatedtext {
+    font-size: 54px;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+    color: #e8e8e8;
+    background-color:#001c25;
+	margin-bottom: 8px;
+}
+.settingstextblue {
+    font-size: 54px;
+    font-family: "Oxanium", serif;
+    font-weight: bold;
+	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#51C4FE;
+	color: #131313;
+	margin-bottom: 8px;
+}
 
 @media (min-width: 950px) {
     :root {
