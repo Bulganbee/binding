@@ -51,7 +51,6 @@ article {
 	margin-bottom: 10px;
 	font-family: "Oxanium", serif;
 	font-weight: 500;
-	line-height: 170%;
     background-color: #e4e4e4;
 }
 section {
@@ -59,13 +58,13 @@ section {
     padding-bottom: 60px;
 }
 p {
-    margin-left: calc(var(--margin-p-left) * 1);
-    margin-right: calc(var(--margin-p-right) * 2);
-    padding-left: calc(var(--padding-left-p) * 2);
-    width: calc(var(--width-p) * 1.6);
-    font-size: calc(var(--root-size) * 2.2);
-    line-height: 170%;
-	padding-top: 30px;
+    /* margin-left: calc(var(--margin-p-left) * 1); */
+    /* margin-right: calc(var(--margin-p-right) * 2); */
+    /* padding-left: calc(var(--padding-left-p) * 2); */
+    /* width: calc(var(--width-p) * 1.6); */
+    /* font-size: calc(var(--root-size) * 2.2); */
+    /* line-height: 170%; */
+	/* padding-top: 30px; */
 }
 footer {
 	background-color: #121313;
