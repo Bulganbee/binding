@@ -15,7 +15,17 @@
     --padding-left-sticky: 8px;
     --margin-p-left: 8px;
     --margin-p-right: 8px;
-}
+        --margin-colophon: 4px;
+        --margin-p-right: 8px;
+        --p-margin-side: 2%;
+        --p-margin-side-r: 2%;
+        --p-margin-note: 2%;
+        --p-margin-note-r: 2%;
+        --p-margin-intropa: 2%;
+        --quote-margin-side-r: 2%;
+        --quote-margin-side: 2%;
+        --width-subp: 120px;
+    }
  /* mobile */
   /* Header section */
   body {
@@ -120,12 +130,20 @@ a:hover {
     color: #9166f5;
 }
 .noteparagraph {
-    width: calc(var(--width-citationbox) * 2.35);
+    width: auto;
     background-color: #f1d45f;
     border: 2px solid #0c0c0c;
     margin-top: 60px;
-    font-size: calc(var(--root-size-bigt) * 2.5);
+    padding: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: calc(var(--p-margin-note) * 3);
+	margin-right: calc(var(--p-margin-note-r) * 3);
+    font-size: calc(var(--root-size-bigt) * 2);
     text-align: center; 
+}
+.notediv {
+    width: auto;
 }
  /* Dropdown footnotes div */
  /* Div inside: details > summary >footnotediv (has text and the arrow) */
@@ -155,15 +173,21 @@ summary {
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
     background-color:#ddd1fb;
-    width: calc(var(--width-citationbox) * 2.35);
+    width: calc(var(--width-citationbox) * 2.3);
+    margin-left: calc(var(--margin-p-left) * 1);
+    margin-right: calc(var(--margin-p-left) * 1);
 }
 details[open] summary {
     border-bottom: none;
 }
+.paragraphs {
+    padding-top: 30px;
+}
 ul {
     background-color:#ddd1fb;
-    width: calc(var(--width-citationbox) * 2.35);
+    width: calc(var(--width-citationbox) * 2.3);
     margin-left: calc(var(--margin-p-left) * 1);
+    margin-right: calc(var(--margin-p-left) * 1);
     border-bottom:2px solid #0c0c0c;
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
@@ -196,7 +220,7 @@ ul {
     z-index: 1;
     padding-top: 10px;
 	padding-bottom: 10px;
-    padding-left: calc(var(--padding-left-sticky) * 2);
+    padding-left: calc(var(--padding-left-sticky) * 1);
 
 }
 .stickytitledark {
@@ -522,7 +546,21 @@ article {
 	color: #131313;
 	margin-bottom: 8px;
 }
-
+p {
+	width: auto;
+    font-family: "Lato";
+	font-size: calc(var(--root-size) * 2);
+	margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side-r) * 3);
+	margin-bottom: 30px;
+	line-height: 170%;
+}
+.bigtext1 {
+    font-family: "Lato";
+	width: auto;
+    margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side) * 3);
+}
 @media (min-width: 950px) {
     :root {
         --root-size: 9px;
@@ -540,8 +578,20 @@ article {
         --left-arrow: 480px;
         --right-arrow: 20px;
         --bottom-arrow: 60px;
-        --padding-left-sticky: 27px;
         --width-citationbox: 187.3px;
+        --padding-left-p: 50px;
+        --width-p: 40ch;
+		--margin-colophon: 170px;
+		--width-p-colophon: 20ch;
+		--p-margin-side: 2%;
+        --p-margin-side-r: 2%;
+		--padding-left-sticky: 22px;
+        --quote-margin-side-r: 12%;
+        --quote-margin-side: 2%;
+        --width-subp: 130px;
+        --p-margin-note: 2%;
+        --p-margin-note-r: 8%;
+        --p-margin-note: 1%;
 	}
 
     header {
@@ -552,6 +602,11 @@ article {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 100px;
+    }
+    .citationandmore {
+        display: flex;
+        flex-direction: column;
+       
     }
     .paragraph-withfootnotes {
         display: grid;
