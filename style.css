@@ -248,10 +248,8 @@ footer {
 }
 h5 {
 	color: #A4A4A4;
-	font-family: ;
 	padding-bottom: 50px;
 	text-align: center;
-
 }
 /* animation for the text */
 @keyframes loop {
@@ -273,9 +271,11 @@ h5 {
 }
 
 mark {
-	background-color: #AD8AFF;
+    background-color: #9166f5;
 }
-
+a:hover {
+    color: #9166f5;
+}
 h3 {
 	font-family: "Oxanium", serif;
 	font-weight: bold;

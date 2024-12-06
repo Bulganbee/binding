@@ -63,7 +63,7 @@ header {
     line-height: 140%;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #AD8AFF;
+    border-color: #51C4FE;
     padding-left: 20px;
     padding-bottom: 10px;
 }
@@ -72,8 +72,8 @@ header {
     font-weight: 600;
     font-size: calc(var(--root-size-h) * 1.5);
     border-left: 3px solid;
-    border-color: #AD8AFF;
-    color:#AD8AFF;
+    border-color: #51C4FE;
+    color:#51C4FE;
     padding: 10px;
     padding-left: 20px;
 }
@@ -111,11 +111,15 @@ p {
     font-family: 'Lato';
 }
 sup {
-    color: #9166f5;
+    color: #51C4FE;
 }
 mark {
-    background-color: #f1d45f;
+    background-color: #51C4FE;
 }
+a:hover {
+    color: #51C4FE;
+}
+
 .noteparagraph {
     width: calc(var(--width-citationbox) * 2.35);
     background-color: #f1d45f;
@@ -521,11 +525,7 @@ article {
       summary {
         width: 440px;
       }
-      .readnext {
-        margin-left: calc(var(--margin-left-next) * 6.5);
-        margin-top: 40px;
-        padding-bottom: 100px;
-    }
+
     #navbar {
         padding-left: 100px;
         padding-right: 100px;

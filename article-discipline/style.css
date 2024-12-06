@@ -114,7 +114,10 @@ sup {
     color: #9166f5;
 }
 mark {
-    background-color: #f1d45f;
+    background-color: #9166f5;
+}
+a:hover {
+    color: #9166f5;
 }
 .noteparagraph {
     width: calc(var(--width-citationbox) * 2.35);
