@@ -12,9 +12,16 @@
     --padding-left: 8px;
     --width-p: 21ch;
     --padding-left-p: 8px;
-    --padding-left-sticky: 8px;
+    --padding-left-sticky: 6px;
     --margin-p-left: 8px;
+	--margin-colophon: 4px;
     --margin-p-right: 8px;
+	--p-margin-side: 2%;
+    --p-margin-side-r: 2%;
+	--p-margin-intropa: 2%;
+    --quote-margin-side-r: 2%;
+    --quote-margin-side: 2%;
+    --width-subp: 120px;
 }
  /* mobile */
   /* Header section */
@@ -155,22 +162,26 @@ summary {
     border-bottom:2px solid #0c0c0c;
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
-    background-color:#ddd1fb;
-    width: calc(var(--width-citationbox) * 2.35);
+    background-color:#d3eefb;
+    width: calc(var(--width-citationbox) * 2.3);
 }
 details[open] summary {
     border-bottom: none;
 }
 ul {
-    background-color:#ddd1fb;
-    width: calc(var(--width-citationbox) * 2.35);
+    background-color:#d3eefb;
+    width: calc(var(--width-citationbox) * 2.3);
     margin-left: calc(var(--margin-p-left) * 1);
+    margin-right: calc(var(--margin-p-left) * 1);
     border-bottom:2px solid #0c0c0c;
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
     padding-bottom: 30px;
+    height: 400px;
+    overflow: auto;
    
 }
+
  /* Class for the footnote paragraphs */
 .footnote {
     font-size: calc(var(--root-size) * 1.7);
@@ -375,6 +386,27 @@ header {
 article {
     background-color: #e4e4e4;
 }
+p {
+	width: auto;
+	font-size: calc(var(--root-size) * 2);
+	margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side-r) * 3);
+	margin-bottom: 30px;
+	line-height: 170%;
+}
+.quote {
+    border: 1.5px solid #1a1a1a;
+    width: auto;
+    margin-left: calc(var(--quote-margin-side) * 3);
+	margin-right: calc(var(--quote-margin-side-r) * 3);
+}
+.bigtext1 {
+    font-family: "Lato";
+	width: auto;
+    margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side) * 3);
+}
+
 
 .crimeanimatedtextred {
     font-family: "Oxanium", serif;
@@ -403,6 +435,11 @@ article {
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-bottom: 8px;
+}
+#markblack {
+    background-color: #1A1A1A;
+    color: #eeeeee;
+    padding: 4px;
 }
 .crimeanimatedtext {
     font-family: "Oxanium", serif;
@@ -522,6 +559,12 @@ article {
 	color: #131313;
 	margin-bottom: 8px;
 }
+.subparagraph {
+    background-color: #1A1A1A;
+    color: #D9D9D9;
+    padding: 4px;
+    width: calc(var(--width-subp) * 2);
+}
 
 @media (min-width: 950px) {
     :root {
@@ -542,12 +585,46 @@ article {
         --bottom-arrow: 60px;
         --padding-left-sticky: 27px;
         --width-citationbox: 187.3px;
+        --padding-left-p: 50px;
+        --width-p: 40ch;
+		--margin-colophon: 170px;
+		--width-p-colophon: 20ch;
+		--p-margin-side: 2%;
+        --p-margin-side-r: 2%;
+		--padding-left-sticky: 100px;
+        --quote-margin-side-r: 12%;
+        --quote-margin-side: 2%;
+        --width-subp: 130px;
 	}
+    summary {
+        top: -10px;
+	left: 1000px;
+	right: 10px;
+	z-index: 100;
+	position: fixed;
+    }
+    ul {
+        top: 85px;
+        left: 1000px;
+	right: 10px;
+	z-index: 90;
+	position: fixed;
+    height: 500px;
+    overflow: auto;
+    }
 
     header {
         padding-bottom: 60px;
         line-height: 100px;
     }
+    p {
+        width: 70ch;
+    }
+    
+    .bigtext1 {
+        width: 50ch;
+    }
+    
     .twocontentsheader {
         display: grid;
         grid-template-columns: 2fr 1fr;

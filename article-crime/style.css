@@ -147,7 +147,6 @@ details[open] #arrow-foot {
     transform: scaleY(-1);
   }
 summary {
-    margin-left: calc(var(--margin-p-left) * 1);
     padding-left: 14px;
     margin-top: 40px;
     padding-top: 14px;
@@ -161,6 +160,9 @@ summary {
     background-color:#250400;
     color: #e4e4e4;
     width: auto;
+	font-size: calc(var(--root-size) * 2);
+	margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side) * 3);
 }
 details[open] summary {
     border-bottom: none;
@@ -168,12 +170,14 @@ details[open] summary {
 ul {
     background-color:#250400;
     color: #e4e4e4;
-    width: calc(var(--width-citationbox) * 2.35);
-    margin-left: calc(var(--margin-p-left) * 1);
     border-bottom:2px solid #0c0c0c;
     border-right:2px solid #0c0c0c;
     border-left:2px solid #0c0c0c;
     padding-bottom: 30px;
+    width: auto;
+	font-size: calc(var(--root-size) * 2);
+	margin-left: calc(var(--p-margin-side) * 3);
+	margin-right: calc(var(--p-margin-side) * 3);
    
 }
  /* Class for the footnote paragraphs */
